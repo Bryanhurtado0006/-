@@ -52,9 +52,9 @@
     <Button
         android:id="@+id/btnFecha"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Seleccionar Fecha"
-        android:layout_gravity="center_horizontal"/>
+        android:layout_height="59dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Seleccionar Fecha" />
 
     <TextView
         android:id="@+id/tvFechaSeleccion"
