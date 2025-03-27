@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity3victor">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="70dp"
+                android:text="Material estudio"
+                android:textSize="30dp" />
+
+            <TextView
+                android:layout_width="344dp"
+                android:layout_height="134dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="50dp"
+                android:text="Este es un material que esta especialmente en
+ayudarte con las materias que te falta mas practica y asi poder mas aprender
+y prepararte para las pruebas IFECS."
+                android:textSize="20dp" />
+
+            <Button
+                android:layout_width="170dp"
+                android:id="@+id/btn_Matematicas"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="50dp"
+                android:text="Matematicas"
+                android:textSize="20dp"/>
+
+            <Button
+                android:layout_width="170dp"
+                android:id="@+id/btn_lectura"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="50dp"
+                android:text="L.Critica"
+                android:textSize="20dp"/>
+
+            <Button
+                android:layout_width="170dp"
+                android:id="@+id/btn_Sociales"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="50dp"
+                android:text="C.Sociales"
+                android:textSize="20dp"/>
+
+
+            <Button
+                android:layout_width="170dp"
+                android:layout_height="80dp"
+                android:id="@+id/btn_naturales"
+                android:layout_gravity="center"
+                android:layout_marginTop="50dp"
+                android:text="C.Naturales"
+                android:textSize="20dp"/>
+
+            <Button
+                android:layout_width="170dp"
+                android:layout_height="80dp"
+                android:id="@+id/btn_ingles"
+                android:layout_gravity="center"
+                android:layout_marginTop="50dp"
+                android:text="Ingles"
+                android:textSize="20dp"/>
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+</LinearLayout>
