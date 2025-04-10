@@ -18,7 +18,7 @@
         android:id="@+id/imagenIcfes"
         android:layout_width="wrap_content"
         android:layout_height="220dp"
-        android:src="@drawable/icono_registro"
+        android:src="@drawable/icono_registro_daniel"
         android:layout_marginTop="60dp"
         android:contentDescription="Imagen de ejemplo" />
 
@@ -29,8 +29,7 @@
         android:text="REGISTRARME"
         android:layout_marginTop="80dp"
         android:marginTop="30dp" />
-
-
+    
     <Button
         android:id="@+id/btnInicoSecionUsuario"
         android:layout_width="match_parent"
