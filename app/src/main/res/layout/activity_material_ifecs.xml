@@ -39,7 +39,7 @@
         </LinearLayout>
 
             <LinearLayout
-                android:layout_width="345dp"
+                android:layout_width="344dp"
                 android:layout_height="50dp"
                 android:layout_marginLeft="30dp"
                 android:layout_marginTop="23dp">
@@ -50,6 +50,11 @@
             </LinearLayout>
 
 
+            <ImageView
+                android:layout_width="400dp"
+                android:layout_height="500dp"
+                android:src="@drawable/material_victor"
+                android:layout_marginTop="40dp"/>
             <ImageView
                 android:layout_width="400dp"
                 android:layout_height="500dp"
