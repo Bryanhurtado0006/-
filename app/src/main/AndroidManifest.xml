@@ -16,6 +16,9 @@
             android:name=".StivenEvaluaciones"
             android:exported="false" />
         <activity
+            android:name=".Ejercicios_practicos_Alejandro"
+            android:exported="false" />
+        <activity
             android:name=".MainActivitySirley_Simulacro"
             android:exported="false" />
         <activity
