@@ -27,7 +27,7 @@ public class MainActivitybryan2 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main_activitybryan2); // Verifica que este nombre coincida con tu XML
+        setContentView(R.layout.activity_main_activitybryan2);
 
         etDocumento = findViewById(R.id.etDocumento);
         etTipoDocumento = findViewById(R.id.etTipoDocumento);
@@ -36,7 +36,7 @@ public class MainActivitybryan2 extends AppCompatActivity {
         listViewModos = findViewById(R.id.listViewModos);
         btnGuardar = findViewById(R.id.btnGuardar);
 
-        // Inicializar el TextView de fecha con un valor por defecto
+
         tvFechaSeleccion.setText("Fecha no seleccionada");
 
         if (listViewModos != null) {

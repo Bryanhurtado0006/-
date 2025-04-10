@@ -41,13 +41,14 @@
     </LinearLayout>
 
     <!-- Selección de Fecha -->
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
         android:text="Fecha de Selección"
         android:textSize="18sp"
-        android:textStyle="bold"
-        android:layout_marginTop="8dp" />
+        android:textStyle="bold" />
 
     <Button
         android:id="@+id/btnFecha"
@@ -65,13 +66,14 @@
         android:layout_gravity="center_horizontal"/>
 
     <!-- Lista de modos de aprendizaje -->
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
         android:text="Modos de Aprendizaje"
         android:textSize="18sp"
-        android:textStyle="bold"
-        android:layout_marginTop="8dp" />
+        android:textStyle="bold" />
 
     <ListView
         android:id="@+id/listViewModos"
