@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/ed_Recuperar_contraseña"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:gravity="center"
+        android:text="INICIO SESION USUARIO"
+        android:textSize="26dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:src="@drawable/icono_recuperar_contrasena_daniel" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Introduce la dirección de correo electrónico que utilizaste para registrarte. Te enviaremos un código de confirmación con el que podrás restablecer tu contraseña."
+        android:textSize="16sp"
+        android:lineSpacingExtra="4dp"
+        android:textColor="#000000"
+        android:padding="8dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:hint="Ingresa tu correo electronico:"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/et_correo_recuperacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="tucorreo@ejemplo.com"
+        android:inputType="textEmailAddress" />
+    <Button
+        android:id="@+id/btnEnviar_Sosicitud_Daniel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="ENVIAR SOLICITUD" />
+
+</LinearLayout>

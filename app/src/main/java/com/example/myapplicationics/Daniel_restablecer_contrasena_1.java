@@ -8,11 +8,12 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-public class Daniel_Inicio_Sesion_Usuario extends AppCompatActivity {
+public class Daniel_restablecer_contrasena_1 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_daniel_inicio_sesion_usuario);
+        setContentView(R.layout.activity_daniel_restablecer_contrasena1);
+
     }
 }

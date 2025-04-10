@@ -23,7 +23,7 @@
         android:contentDescription="Imagen de ejemplo" />
 
     <Button
-        android:id="@+id/btnInicoSesionAdministrador"
+        android:id="@+id/btnRegistrarme_Daniel"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="REGISTRARME"
@@ -31,7 +31,7 @@
         android:marginTop="30dp" />
     
     <Button
-        android:id="@+id/btnInicoSecionUsuario"
+        android:id="@+id/btnInico_Sesion_Daniel"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="INICIAR SESION"
