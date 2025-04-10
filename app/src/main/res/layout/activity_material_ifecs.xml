@@ -55,11 +55,7 @@
                 android:layout_height="500dp"
                 android:src="@drawable/material_victor"
                 android:layout_marginTop="40dp"/>
-            <ImageView
-                android:layout_width="400dp"
-                android:layout_height="500dp"
-                android:src="@drawable/material_victor"
-                android:layout_marginTop="40dp"/>
+
 
 
 
