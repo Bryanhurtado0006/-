@@ -13,6 +13,9 @@
         android:theme="@style/Theme.MyApplicationICS"
         tools:targetApi="31">
         <activity
+            android:name=".Ana_Simulacros_Seguimiento"
+            android:exported="false" />
+        <activity
             android:name=".Alejandro_Aula_Invertida"
             android:exported="false" />
         <activity
