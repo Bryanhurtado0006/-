@@ -30,14 +30,14 @@
                     android:id="@+id/btn_menu"
                     android:layout_marginLeft="23dp"
                     android:layout_height="40dp"
-                    android:src="@drawable/menu"/>
+                    android:src="@drawable/menu_victor"/>
 
                 <ImageView
                     android:layout_width="40dp"
                     android:id="@+id/btn_notificacion"
                     android:layout_height="40dp"
                     android:layout_marginLeft="260dp"
-                    android:src="@drawable/notificacion"/>
+                    android:src="@drawable/notificacion_victor"/>
 
             </LinearLayout>
 
@@ -65,7 +65,7 @@
                     android:layout_width="130dp"
                     android:layout_height="150dp"
                     android:layout_marginLeft="23dp"
-                    android:src="@drawable/libro" />
+                    android:src="@drawable/libro_victor" />
                 <Button
                     android:layout_width="170dp"
                     android:id="@+id/btn_Lectura_critica"
@@ -89,7 +89,7 @@
                     android:layout_height="115dp"
                     android:layout_marginTop="23dp"
                     android:layout_marginLeft="23dp"
-                    android:src="@drawable/calculador" />
+                    android:src="@drawable/calculador_victor" />
 
                 <Button
                     android:layout_width="170dp"
@@ -112,7 +112,7 @@
                     android:layout_height="150dp"
                     android:layout_marginTop="10dp"
                     android:layout_marginLeft="23dp"
-                    android:src="@drawable/sociales" />
+                    android:src="@drawable/sociales_victor" />
                 <Button
                     android:layout_width="170dp"
                     android:id="@+id/btn_ciencias_sociales"
@@ -156,7 +156,7 @@
                     android:layout_width="130dp"
                     android:layout_height="150dp"
                     android:layout_marginLeft="23dp"
-                    android:src="@drawable/ingles" />
+                    android:src="@drawable/ingles_victor" />
                 <Button
                     android:layout_width="170dp"
                     android:id="@+id/btn_ingles"
