@@ -56,14 +56,7 @@
                 android:src="@drawable/material_victor"
                 android:layout_marginTop="40dp"/>
 
-
-
-
         </LinearLayout>
-
-
-
-
 
     </ScrollView>
 
