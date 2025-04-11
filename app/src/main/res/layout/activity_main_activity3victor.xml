@@ -66,17 +66,18 @@
                     android:layout_height="150dp"
                     android:layout_marginLeft="23dp"
                     android:src="@drawable/libro_victor" />
+
                 <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
                     android:id="@+id/btn_lectura"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Lectura Critica"
-                    android:layout_alignParentBottom="true"
                     android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
                     android:layout_margin="24dp"
-                    app:backgroundTint="@color/cardview_dark_background"
+                    android:text="Lectura Critica"
                     android:textColor="@android:color/white"
-                    app:iconTint="@android:color/white"/>
+                    app:backgroundTint="@color/cardview_dark_background"
+                    app:iconTint="@android:color/white" />
             </LinearLayout>
 
             <LinearLayout
