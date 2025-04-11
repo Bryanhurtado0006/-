@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:padding="16dp"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Monólogo de Hamlet"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="#000000"
+            android:layout_marginBottom="10dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textSize="14sp"
+            android:lineSpacingExtra="6dp"
+            android:layout_marginBottom="16dp"
+            android:text="Hamlet. —¿Ser o no ser. Esa es la cuestión. ¿Qué es más noble? ¿Permanecer impasible ante los avatares de una fortuna adversa o afrontar los peligros de un turbulento mar y, desafiándolos, terminar con todo de una vez? Morir es... dormir... Nada más. Y durmiendo se acaban la ansiedad y la angustia y los miles de padecimientos de que son herederos nuestros míseros cuerpos. Es una deseable consumación: Morir... dormir... dormir… tal vez soñar. Ah, ahí está la dificultad. Es el miedo a los sueños que podamos tener al abandonar este breve hospedaje lo que nos hace titubear, pues a través de ellos podrían prolongarse indefinidamente las desdichas de esta vida. Si pudiésemos estar absolutamente seguros de que un certero golpe de daga terminaría con todo, ¿quién soportaría los azotes y desdenes del mundo, la injusticia de los opresores, los desprecios del arrogante, el dolor del amor no correspondido, la desidia de la justicia, la insolencia de los ministros, y los palos inmerecidamente recibidos? ¿Quién arrastraría, gimiendo y sudando, las cargas de esta vida, si no fuese por el temor de que haya algo después de la muerte, ese país inexplorado del que nadie ha logrado regresar? Es lo que inmoviliza la voluntad y nos hace concluir que mejor es el mal que padecemos que el mal que está por venir. La duda nos convierte en cobardes y nos desvía de nuestro racional curso de acción. Pero... interrumpamos nuestras filosofías, pues veo allí a la bella Ofelia. Ninfa de las aguas, perdona mis pecados y ruega por mí en tus plegarias." />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="8dp"
+            android:text="¿Cuál de las siguientes opciones describe el tema principal del texto anterior?"
+            android:textSize="16sp"
+            android:textColor="#000000" />
+
+        <RadioGroup
+            android:id="@+id/radioGroupHamlet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/opcion1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A. El sentido de la vida." />
+
+            <RadioButton
+                android:id="@+id/opcion2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="B. La cobardía y el temor." />
+
+            <RadioButton
+                android:id="@+id/opcion3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="C. La tentación del suicidio." />
+
+            <RadioButton
+                android:id="@+id/opcion4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="D. La naturaleza de los sueños." />
+        </RadioGroup>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="24dp" />
+
+        <Button
+            android:id="@+id/btn_siguiente_hamlet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:backgroundTint="#00BFFF"
+            android:text="Siguiente"
+            android:textColor="#ffffff"
+            android:textSize="16sp"
+            android:paddingHorizontal="32dp"
+            android:paddingVertical="10dp"
+            android:layout_marginBottom="24dp" />
+    </LinearLayout>
+</ScrollView>

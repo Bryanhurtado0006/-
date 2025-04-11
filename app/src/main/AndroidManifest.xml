@@ -16,6 +16,9 @@
             android:name=".Daniel_restablecer_contrasena_1"
             android:exported="false" />
         <activity
+            android:name=".Estadistica_Lectura"
+            android:exported="false" />
+        <activity
             android:name=".bryan_selecion_aprenidzaje_Act"
             android:exported="false" />
         <activity
@@ -26,6 +29,21 @@
             android:exported="false" />
         <activity
             android:name=".Luis_Retos"
+            android:exported="false" />
+        <activity
+            android:name=".Examen_Completado"
+            android:exported="false" />
+        <activity
+            android:name=".Simulacro_Lectura_4"
+            android:exported="false" />
+        <activity
+            android:name=".Simulacro_Lectura_3"
+            android:exported="false" />
+        <activity
+            android:name=".Simulacro_Lectura_2"
+            android:exported="false" />
+        <activity
+            android:name=".Simulacro_Lectura_1"
             android:exported="false" />
         <activity
             android:name=".StivenEvaluaciones"

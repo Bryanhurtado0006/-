@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:padding="16dp"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="El héroe"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="#000000"
+            android:layout_marginBottom="10dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textSize="14sp"
+            android:lineSpacingExtra="6dp"
+            android:layout_marginBottom="16dp"
+            android:text="Todo se adultera hoy. A mí me ha tocado personificar un heroísmo falso. Maté al pobre dragón de modo alevoso que no debe ni recordarse. El inofensivo monstruo vivía pacíficamente y no hizo mal a nadie. Hasta pagaba sus contribuciones, y llegó en inocente simplicidad a depositar su voto en las ánforas, durante las últimas elecciones generales. Me vio llegar como a un huésped, y cuando hacía ademán de recibirme y brindarme hospedaje, le hendí la cabeza de un tajo. Horrorizado por mi villanía, huí de los fotógrafos que pretendían retratarme con los despojos del pobre bicho y con el malhadado alfanje ensangrentado. Otro se aprovechó de mi fea hazaña e intentó obtener la mano de la princesa. Por desdicha mis abogados lo impidieron y aun obligaron al impostor a pagar las costas del juicio. No hubo más remedio que apechugar con la hija del rey y tomar parte en ceremonias que asquearían aun a Mr. Cecil B. de Mille.&#10;&#10;La princesa no es la joven adorable que estás desde hace varios años acostumbrado a ver por las tarjetas postales. Se trata de una venerable matrona que, como tantas mujeres que han prolongado su doncellez, se ha chupado interiormente. (Perdonadme lo bajo de la expresión). Resulta su compañía tan enfadosa que a su lado se explican uno los horrores de todas las revoluciones. Sus aficiones son groseras: nada la complace más que exhibirse en público conmigo, haciendo gala de un amor conyugal que felizmente no existe. Tiene alma vulgar de actriz de cine. Siempre está en escena, y aun lo que dice dormida va destinado a la galería. Sus actitudes favoritas, la de infanta demócrata, de esposa sacrificada, de mujer superior que tolera menesteres humildes. A su lado siento náuseas incontenibles.&#10;&#10;En los momentos de mayor intimidad mi egregia compañera inventa frases altisonantes que me colman de infortunio: &quot;la sangre del dragón nos une&quot;; &quot;tu heroicidad me ha hecho tuya para siempre&quot;; o bien &quot;la lengua del dragón fue el ábrete sésamo&quot;; etcétera.&#10;&#10;Y luego las conmemoraciones, los discursos, la retórica huera..., toda la triste máquina de la gloria. ¡Qué asco de mí mismo por haber comprado con una villanía bienestar y honores! ¡Cuánto envidio la sepultura olvidada de los héroes sin nombre!" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="8dp"
+            android:text="Los principales personajes de los eventos narrados en el cuento son:"
+            android:textSize="16sp"
+            android:textColor="#000000" />
+
+        <RadioGroup
+            android:id="@+id/radioGroupPersonajes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/opcion1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A. La princesa, el narrador y Cecil B. de Mille." />
+
+            <RadioButton
+                android:id="@+id/opcion2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="B. La princesa, el rey y el héroe." />
+
+            <RadioButton
+                android:id="@+id/opcion3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="C. La princesa, el dragón y los héroes anónimos." />
+
+            <RadioButton
+                android:id="@+id/opcion4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="D. La princesa, el dragón y el narrador." />
+        </RadioGroup>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="24dp" />
+
+        <Button
+            android:id="@+id/btn_siguiente_heroe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:backgroundTint="#00BFFF"
+            android:text="Siguiente"
+            android:textColor="#ffffff"
+            android:textSize="16sp"
+            android:paddingHorizontal="32dp"
+            android:paddingVertical="10dp"
+            android:layout_marginBottom="24dp" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:padding="15dp"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="¿Qué hay detrás de las redes sociales?"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:lineSpacingExtra="6dp"
+            android:text="Las redes sociales son una forma de interacción a través de la red, una manera de conectar a las personas en sus ámbitos y relaciones con otras personas. En definitiva, una herramienta de comunicación eficaz. Eso, si, según cómo utilizarlas. Y es que, las redes sociales tienen un lado oscuro. La suplantación de identidad y el acoso a menores son algunos de los casos más comunes. \n\nEl problema fundamental es la inmensa cantidad de información que muchos jóvenes no dudan en poner en estos lugares. Los usuarios cuelgan sus fotos y proporcionan información acerca de sus lugares de residencia, incluso algunos no dudan en poner su número de teléfono. Y así cuando se pone en peligro la intimidad. \n\nLa voz de alarma sobre este asunto se sumó hace unos meses. Ello ha provocado que algunos de estos lugares modifiquen sus normas de utilización. Entre estos cambios, se prohíbe la utilización de este tipo de redes a menores de 14 años y se aconseja que los jóvenes de entre 14 y 18 años consulten con sus padres la utilización de estos servicios. \n\nLos menores de edad no son conscientes de sus actos y de lo que conllevan estas normas. Pero ¿qué pasa con los adolescentes? Estos obvian la red plena con posibilidades de ser capturados. Por ejemplo, en ocasiones alguien comenta que espera a las afueras de un lugar o indica datos personales como su dirección o teléfono, utiliza una contraseña débil o publica fotos comprometedores. Todas estas acciones podrían captar tus fotos, bloquear a los desconocidos. Aparecen en consecuencias tanto con conocidos y familiares como no. \n\nLos avances en el terreno de las nuevas tecnologías siempre son buenos. Pero hay que saber cómo manejarlos. Por eso, concientizar a tus hijos sobre la importancia de preservar su intimidad."
+            android:textColor="#000000"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="8dp"
+            android:text="La expresión “En definitiva” se usa para:"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <RadioGroup
+            android:id="@+id/radioGroupOpciones"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/opcion1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A. Contrastar la idea acerca de las características en la comunicación." />
+
+            <RadioButton
+                android:id="@+id/opcion2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="B. Sintetizar las características de comunicación planteadas previamente." />
+
+            <RadioButton
+                android:id="@+id/opcion3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="C. Resumir la tesis central del artículo con respecto a las redes sociales." />
+
+            <RadioButton
+                android:id="@+id/opcion4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="D. Reforzar las afirmaciones acerca de las interacciones en la red." />
+        </RadioGroup>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="24dp" />
+
+        <Button
+            android:id="@+id/btn_siguiente"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:backgroundTint="#00BFFF"
+            android:text="Siguiente"
+            android:textColor="#ffffff"
+            android:textSize="16sp"
+            android:paddingHorizontal="32dp"
+            android:paddingVertical="10dp"
+            android:layout_marginBottom="24dp" />
+    </LinearLayout>
+</ScrollView>
