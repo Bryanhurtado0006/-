@@ -24,7 +24,7 @@
         android:layout_marginTop="20dp"
         android:lineSpacingExtra="4dp"
         android:padding="8dp"
-        android:text="Introduce la dirección de correo electrónico que utilizaste para registrarte. Te enviaremos un código de confirmación con el que podrás restablecer tu contraseña."
+        android:text="Ahora ingresa el codigo que recibiste en tu correo para restablecer tu contraseña:"
         android:textColor="#000000"
         android:textSize="16sp" />
 
@@ -32,21 +32,21 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
-        android:text="Ingresa tu correo electrónico:" />
+        android:text="Ingresa codigo:" />
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="tucorreo@ejemplo.com"
+        android:hint="Ingrese tu codigo aqui:"
         android:inputType="textEmailAddress"
         android:minHeight="48dp" />
 
     <Button
-        android:id="@+id/btnRecuperar_Contraseña_1_Daniel"
+        android:id="@+id/btnRecuperar_Contraseña_2_Daniel"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:minHeight="48dp"
-        android:text="ENVIAR SOLICITUD" />
+        android:text="SIGUIENTE" />
 
 </LinearLayout>

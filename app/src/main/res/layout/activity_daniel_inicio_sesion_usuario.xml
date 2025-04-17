@@ -2,16 +2,16 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:padding="20dp"
-    android:gravity="center">
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:padding="20dp">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="100dp"
         android:gravity="center"
-        android:text="INICIO SESION USUARIO"
-        android:textSize="26dp" />
+        android:text="INICIO SESIÓN USUARIO"
+        android:textSize="26sp" />
 
     <ImageView
         android:layout_width="wrap_content"
@@ -23,44 +23,45 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="5dp"
-        android:hint="Ingresa tu correo electronico:"
-        android:inputType="textEmailAddress" />
+        android:text="Ingresa tu correo electrónico:" />
 
     <EditText
         android:id="@+id/et_correo_Daniel"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="tucorreo@ejemplo.com"
-        android:inputType="textEmailAddress" />
+        android:inputType="textEmailAddress"
+        android:minHeight="48dp" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
-        android:hint="Ahora ingresa tu contraseña"
-        android:inputType="textEmailAddress" />
+        android:text="Ahora ingresa tu contraseña:" />
 
     <EditText
         android:id="@+id/et_contraseña_Daniel"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Contraseña" />
+        android:hint="Contraseña"
+        android:inputType="textPassword"
+        android:minHeight="48dp" />
 
     <TextView
         android:id="@+id/ed_restablecer_contraseña_Daniel"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:gravity="center"
         android:layout_marginTop="20dp"
-        android:text="¿Olvidades tu contraseña?"
-        android:textSize="26dp" />
+        android:gravity="center"
+        android:text="¿Olvidaste tu contraseña?"
+        android:textSize="16sp" />
 
     <Button
         android:id="@+id/btnInicoSecion_Daniel"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="5dp"
-        android:marginTop="10dp"
-        android:text="INICIAR SESION" />
+        android:layout_marginTop="10dp"
+        android:minHeight="48dp"
+        android:text="INICIAR SESIÓN" />
 
 </LinearLayout>

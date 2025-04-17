@@ -13,6 +13,12 @@
         android:theme="@style/Theme.MyApplicationICS"
         tools:targetApi="31">
         <activity
+            android:name=".Daniel_restablecer_contrasena_3"
+            android:exported="false" />
+        <activity
+            android:name=".Daniel_restablecer_contrasena_2"
+            android:exported="false" />
+        <activity
             android:name=".JohnDavid"
             android:exported="false" />
         <activity
