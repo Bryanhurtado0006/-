@@ -32,12 +32,12 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
-        android:text="Ingrese nueva contraseña:" />
+        android:text="Ingrese su nueva contraseña:" />
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Ingrese tu codigo aqui:"
+        android:hint="Ingrese nueva contraseña:"
         android:inputType="textEmailAddress"
         android:minHeight="48dp" />
 
