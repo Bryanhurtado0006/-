@@ -11,7 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="110dp"
         android:gravity="center"
-        android:text="¡Es tu momento!Cada esfuerzo te acerca a tus sueños."
+        android:text="¡Es tu momento! Cada esfuerzo te acerca a tus sueños."
         android:textSize="30dp" />
 
     <ImageView
@@ -27,15 +27,13 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="REGISTRARME"
-        android:layout_marginTop="80dp"
-        android:marginTop="30dp" />
-    
+        android:layout_marginTop="80dp" />
+
     <Button
         android:id="@+id/btnInico_Sesion_Daniel"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="INICIAR SESION"
-        android:layout_marginTop="30dp"
-        android:marginTop="10dp" />
+        android:text="INICIAR SESIÓN"
+        android:layout_marginTop="30dp" />
 
 </LinearLayout>

@@ -57,7 +57,7 @@
             <ImageView
                 android:layout_width="24dp"
                 android:layout_height="24dp"
-                android:src="@drawable/ic_check" />
+                 />
 
             <TextView
                 android:layout_width="0dp"
@@ -95,7 +95,7 @@
             <ImageView
                 android:layout_width="24dp"
                 android:layout_height="24dp"
-                android:src="@drawable/ic_close" />
+                 />
 
             <TextView
                 android:layout_width="0dp"
@@ -133,7 +133,7 @@
             <ImageView
                 android:layout_width="24dp"
                 android:layout_height="24dp"
-                android:src="@drawable/ic_level" />
+                />
 
             <TextView
                 android:layout_width="0dp"
@@ -218,7 +218,7 @@
                 android:layout_width="0dp"
                 android:layout_weight="1"
                 android:layout_height="wrap_content"
-                android:background="@drawable/borde_gris"
+
                 android:gravity="center"
                 android:padding="12dp"
                 android:text="1 min.\nTIEMPO EXAMEN"
@@ -229,7 +229,7 @@
                 android:layout_width="0dp"
                 android:layout_weight="1"
                 android:layout_height="wrap_content"
-                android:background="@drawable/borde_gris"
+
                 android:gravity="center"
                 android:padding="12dp"
                 android:layout_marginStart="8dp"

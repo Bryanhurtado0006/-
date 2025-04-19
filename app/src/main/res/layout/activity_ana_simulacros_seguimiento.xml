@@ -20,7 +20,7 @@
             android:id="@+id/menu_icon"
             android:layout_width="28dp"
             android:layout_height="28dp"
-            android:src="@drawable/menu"
+
             android:contentDescription="Menú" />
 
         <View
@@ -32,7 +32,7 @@
             android:id="@+id/notification_icon"
             android:layout_width="28dp"
             android:layout_height="28dp"
-            android:src="@drawable/notificacion"
+
             android:contentDescription="Notificaciones" />
     </LinearLayout>
 
@@ -96,7 +96,7 @@
                 <ImageView
                     android:layout_width="64dp"
                     android:layout_height="64dp"
-                    android:src="@drawable/matematicas"
+
                     android:contentDescription="Matemáticas" />
 
                 <TextView
@@ -141,7 +141,7 @@
                     android:layout_width="64dp"
                     android:layout_height="64dp"
                     android:contentDescription="Ciencias Sociales"
-                    android:src="@drawable/sociales" />
+                     />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -162,7 +162,7 @@
                 <ImageView
                     android:layout_width="64dp"
                     android:layout_height="64dp"
-                    android:src="@drawable/ingles"
+
                     android:contentDescription="Inglés" />
 
                 <TextView
