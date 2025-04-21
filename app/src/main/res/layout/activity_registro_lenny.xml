@@ -1,10 +1,108 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center_horizontal"
     tools:context=".RegistroLenny">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Crear tu cuenta"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:layout_marginTop="24dp" />
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/icono_registro_daniel"
+        android:layout_marginTop="16dp"
+        android:contentDescription="Persona subiendo escalones" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingresa un nombre"
+        android:textColor="#000000"
+        android:layout_marginTop="24dp" />
+
+    <EditText
+        android:id="@+id/editTextNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre"
+        android:background="#A3E5FA"
+        android:padding="12dp"
+        android:textColor="#000000"
+        android:textColorHint="#777777"
+        android:layout_marginBottom="12dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingresa con tu correo electrónico:"
+        android:textColor="#000000" />
+
+    <EditText
+        android:id="@+id/editTextCorreo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="correo@electronico"
+        android:inputType="textEmailAddress"
+        android:background="#A3E5FA"
+        android:padding="12dp"
+        android:textColor="#000000"
+        android:textColorHint="#777777"
+        android:layout_marginBottom="12dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Crea tu contraseña (+8 características):"
+        android:textColor="#000000" />
+
+    <EditText
+        android:id="@+id/editTextContrasena"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Contraseña"
+        android:inputType="textPassword"
+        android:background="#A3E5FA"
+        android:padding="12dp"
+        android:textColor="#000000"
+        android:textColorHint="#777777"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Debes tener por lo menos 13 años para utilizar la aplicación. En caso de ser considerado menor de edad en tu país de residencia, necesitarás la autorización de tu padre, madre o tutor(a) para crear una cuenta."
+        android:textSize="12sp"
+        android:textColor="#000000"
+        android:layout_marginBottom="12dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Al registrarte, estás reconociendo que conoces y aceptas el aviso de Privacidad y los Términos y Condiciones."
+        android:textSize="12sp"
+        android:textColor="#000000"
+        android:layout_marginBottom="24dp" />
+
+    <Button
+        android:id="@+id/btnCrearCuenta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CREAR CUENTA"
+        android:backgroundTint="#3399FF"
+        android:textColor="#FFFFFF"
+        android:padding="12dp"
+        android:textStyle="bold" />
 
 </LinearLayout>
