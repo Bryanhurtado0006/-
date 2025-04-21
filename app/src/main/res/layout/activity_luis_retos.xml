@@ -30,6 +30,7 @@
                     android:layout_marginBottom="16dp">
 
                     <TextView
+                        android:id="@+id/TXT_Retos"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
@@ -40,6 +41,7 @@
                         android:padding="8dp" />
 
                     <TextView
+                        android:id="@+id/TXT_Raking"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
@@ -63,18 +65,21 @@
                 android:gravity="center_vertical">
 
                 <TextView
+                    android:id="@+id/IMG_Copa"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="16dp"
                     android:text="🏆"
                     android:textSize="40sp" />
                 <LinearLayout
+
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:orientation="vertical">
 
                     <!-- Título -->
                     <TextView
+                        android:id="@+id/TXT_Puntos"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Puntos"
@@ -84,6 +89,7 @@
 
                     <!-- Valor -->
                     <TextView
+                        android:id="@+id/NMR_Valor"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="650"
@@ -102,6 +108,7 @@
 
             <!-- Título Mis Retos -->
             <TextView
+                android:id="@+id/TXT_Mis_Retos"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Mis Retos"
@@ -127,7 +134,8 @@
 
                     <!-- Círculo interactivo -->
                     <TextView
-                        android:id="@+id/iconoReto1"
+
+                        android:id="@+id/PUNTO_Reto1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="●"
@@ -137,7 +145,7 @@
 
                     <!-- Texto del reto -->
                     <TextView
-                        android:id="@+id/tituloReto1"
+                        android:id="@+id/TXT_titulo_Reto1"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
@@ -146,7 +154,7 @@
 
                     <!-- Botón para ver más -->
                     <Button
-                        android:id="@+id/verMasBtn1"
+                        android:id="@+id/BTN_verMasBtn1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="▶"
@@ -155,7 +163,7 @@
 
                 <!-- Texto oculto -->
                 <TextView
-                    android:id="@+id/detalleReto1"
+                    android:id="@+id/TXT_detalle_Reto1"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Este reto consiste en leer un capítulo
@@ -169,6 +177,7 @@
 
             <!-- Título nuevos retos -->
             <TextView
+                android:id="@+id/TXT_Descubre_nuevos_retos"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Descubre nuevos retos"
@@ -193,7 +202,7 @@
                     android:gravity="center_vertical">
 
                     <TextView
-                        android:id="@+id/iconoReto2"
+                        android:id="@+id/PUNTO_iconoReto2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="●"
@@ -202,7 +211,7 @@
                         android:layout_marginEnd="8dp" />
 
                     <TextView
-                        android:id="@+id/tituloReto2"
+                        android:id="@+id/TXT_tituloReto2"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
@@ -210,7 +219,7 @@
                         android:textSize="16sp" />
 
                     <Button
-                        android:id="@+id/verMasBtn2"
+                        android:id="@+id/BTN_verMasBtn2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="▶"
@@ -218,7 +227,7 @@
                 </LinearLayout>
 
                 <TextView
-                    android:id="@+id/detalleReto2"
+                    android:id="@+id/TXT_detalleReto2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Este reto te invita a moverte un poco:
