@@ -8,15 +8,13 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-public class Luis_Retos extends AppCompatActivity {
-
+public class Raking_Luis extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        setContentView(R.layout.activity_luis_retos);
-
+        setContentView(R.layout.activity_raking_luis);
 
 
     }
