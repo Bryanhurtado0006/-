@@ -26,5 +26,14 @@
         android:text="Material"
         android:textSize="30dp"/>
 
+    <Button
+        android:layout_width="200dp"
+        android:id="@+id/btn_Registro"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:text="Material"
+        android:textSize="30dp"/>
+
 
 </LinearLayout>

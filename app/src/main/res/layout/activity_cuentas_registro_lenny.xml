@@ -2,7 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/main"
+    android:id="@+id/Cuentas"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Cuentas_Registro_Lenny"
@@ -50,6 +50,7 @@
                 android:contentDescription="Foto de perfil" />
 
             <LinearLayout
+                android:id="@+id/Sirley"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -87,6 +88,7 @@
                 android:contentDescription="Foto de perfil" />
 
             <LinearLayout
+                android:id="@+id/Lenny"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -124,6 +126,7 @@
                 android:contentDescription="Foto de perfil" />
 
             <LinearLayout
+                android:id="@+id/Ana"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
