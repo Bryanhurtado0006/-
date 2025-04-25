@@ -17,7 +17,7 @@
             android:exported="false" />
         <activity
             android:name=".MainActivity"
-            android:exported="false">
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -45,9 +45,7 @@
         <activity
             android:name=".Estadistica_Lectura"
             android:exported="false" />
-        <activity
-            android:name=".bryan_selecion_aprenidzaje_Act"
-            android:exported="false" />
+
         <activity
             android:name=".Daniel_Inicio_Sesion_Usuario"
             android:exported="false" />
@@ -81,9 +79,7 @@
         <activity
             android:name=".Alejandro_Aula_Invertida"
             android:exported="false" />
-        <activity
-            android:name=".MainActivitybryan3"
-            android:exported="false" />
+
         <activity
             android:name=".MainActivity3victor"
             android:exported="false" />
