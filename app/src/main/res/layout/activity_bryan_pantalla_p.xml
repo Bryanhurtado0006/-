@@ -98,7 +98,7 @@
                 <ImageView
                     android:layout_width="40dp"
                     android:layout_height="40dp"
-                    android:src="@drawable/ic_challenge" />
+                     />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -129,7 +129,7 @@
                 <ImageView
                     android:layout_width="40dp"
                     android:layout_height="40dp"
-                    android:src="@drawable/ic_progress" />
+                    />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -159,7 +159,7 @@
                 <ImageView
                     android:layout_width="40dp"
                     android:layout_height="40dp"
-                    android:src="@drawable/ic_world" />
+                     />
 
                 <TextView
                     android:layout_width="wrap_content"
