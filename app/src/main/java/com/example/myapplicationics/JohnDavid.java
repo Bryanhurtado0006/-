@@ -1,6 +1,8 @@
 package com.example.myapplicationics;
 
 import android.os.Bundle;
+import android.os.Handler;
+import android.widget.TextView;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -15,10 +17,18 @@ public class JohnDavid extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_john_david);
-        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
-            Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
-            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
-            return insets;
-        });
+        TextView mensaje = findViewById(R.id.textoMensaje);
+
+        new Handler().postDelayed(() -> {
+            mensaje.setText("Este diagnóstico nos ayudará a conocer tu estilo de aprendizaje y así personalizar mejor tu experiencia");
+
+
+            new Handler().postDelayed(() -> {
+                mensaje.setText("Presiona el boton siguiente para continuar");
+            }, 7000);
+        }, 7000);
     }
 }
+
+
+

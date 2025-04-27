@@ -36,9 +36,7 @@
         <activity
             android:name=".Daniel_Inicio_Sesion_Usuario"
             android:exported="false" />
-        <activity
-            android:name=".Luis_Bienvenido_Retos"
-            android:exported="false" />
+
         <activity
             android:name=".Luis_Retos"
             android:exported="false" />
@@ -75,9 +73,7 @@
         <activity
             android:name=".MainActivity3victor"
             android:exported="false" />
-        <activity
-            android:name=".MainActivitybryan2"
-            android:exported="false" />
+
         <activity
             android:name=".MainActivity"
             android:exported="true">
