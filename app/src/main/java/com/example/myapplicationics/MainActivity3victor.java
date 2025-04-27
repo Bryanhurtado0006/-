@@ -2,20 +2,16 @@ package com.example.myapplicationics;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
-import android.widget.Button;
 
-import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.graphics.Insets;
-import androidx.core.view.ViewCompat;
 import com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton;
-import androidx.core.view.WindowInsetsCompat;
+
 
 public class MainActivity3victor extends AppCompatActivity {
 
 ExtendedFloatingActionButton btnLectura,btn_Matematicas,btn_sociales,btn_naturales,btn_ingles;
+
 
 
 @Override

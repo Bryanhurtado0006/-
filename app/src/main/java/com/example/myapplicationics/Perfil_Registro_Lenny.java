@@ -8,13 +8,12 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-public class MainActivitybryan3 extends AppCompatActivity {
+public class Perfil_Registro_Lenny extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
-        setContentView(R.layout.activity_main_activitybryan3);
+        setContentView(R.layout.activity_perfil_registro_lenny);
 
     }
 }

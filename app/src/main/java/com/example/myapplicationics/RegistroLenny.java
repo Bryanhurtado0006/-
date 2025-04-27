@@ -1,19 +1,28 @@
 package com.example.myapplicationics;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 
-import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.graphics.Insets;
-import androidx.core.view.ViewCompat;
-import androidx.core.view.WindowInsetsCompat;
+
+import com.example.myapplicationics.databinding.ActivityRegistroLennyBinding;
+
 
 public class RegistroLenny extends AppCompatActivity {
+    private ActivityRegistroLennyBinding binding;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_registro_lenny);
+        binding = ActivityRegistroLennyBinding.inflate(getLayoutInflater());
+        setContentView(binding.getRoot());
+
+        binding.btnCrearCuenta.setOnClickListener(View  -> {
+            Intent intent = new Intent(RegistroLenny.this, Cuentas_Registro_Lenny.class);
+            startActivity(intent);
+        });
 
     }
 }

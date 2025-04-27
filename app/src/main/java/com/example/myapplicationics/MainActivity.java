@@ -13,7 +13,8 @@ import androidx.core.view.WindowInsetsCompat;
 
 public class MainActivity extends AppCompatActivity {
 Button btn_Material;
-    @Override
+Button btn_Registro;
+  @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         
@@ -30,7 +31,20 @@ Button btn_Material;
                 
             }
         });
-        
+
+
+        btn_Registro=findViewById(R.id.btn_Registro);
+
+
+        btn_Registro.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent irRegistro=new Intent(MainActivity.this,RegistroLenny.class);
+                startActivity(irRegistro);
+
+            }
+        });
+
         
     }
 }
