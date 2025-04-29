@@ -22,7 +22,14 @@
             app:cardBackgroundColor="#E2D68F"
             app:cardCornerRadius="15dp"
             tools:layout_editor_absoluteX="23dp"
-            tools:layout_editor_absoluteY="482dp" />
+            tools:layout_editor_absoluteY="482dp" >
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/imgbryanlapiz" />
+        </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
             android:id="@+id/cardView"
@@ -33,6 +40,11 @@
             tools:layout_editor_absoluteX="207dp"
             tools:layout_editor_absoluteY="484dp" >
 
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/imgbryanganador" />
         </androidx.cardview.widget.CardView>
 
         <TextView
@@ -47,30 +59,30 @@
         tools:layout_editor_absoluteX="143dp"
         tools:layout_editor_absoluteY="16dp" />
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="81dp"
-        android:layout_height="126dp"
-        android:background="@drawable/borde"
-        android:scaleType="centerCrop"
-        app:srcCompat="@drawable/bryaniamgen"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="88dp" />
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="81dp"
+            android:layout_height="126dp"
+            android:background="@drawable/borde"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/bryaniamgen"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="80dp" />
 
-    <TextView
-        android:id="@+id/sectionTitle"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Seccion de Interes"
-        android:textColor="#000000"
-        android:textSize="18sp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.069"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="243dp" />
+        <TextView
+            android:id="@+id/sectionTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Seccion de Interes"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.109"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="229dp" />
 
-    <TextView
+        <TextView
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -90,13 +102,13 @@
         tools:layout_editor_absoluteX="119dp"
         tools:layout_editor_absoluteY="155dp" />
 
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Donde aprender para el ICFES se"
-        tools:layout_editor_absoluteX="103dp"
-        tools:layout_editor_absoluteY="120dp" />
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Donde aprender para el ICFES se"
+            tools:layout_editor_absoluteX="103dp"
+            tools:layout_editor_absoluteY="120dp" />
 
         <androidx.cardview.widget.CardView
             android:id="@+id/cardView"
@@ -107,6 +119,11 @@
             tools:layout_editor_absoluteX="212dp"
             tools:layout_editor_absoluteY="280dp" >
 
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/imgbryanlibriii" />
         </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
@@ -117,31 +134,34 @@
         tools:layout_editor_absoluteX="26dp"
         tools:layout_editor_absoluteY="278dp">
 
-        <ImageButton
-            android:id="@+id/imageButton2"
+        <ImageView
+            android:id="@+id/imageView3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:scaleType="centerCrop"
-            app:srcCompat="@drawable/bryanxxxq" />
-
+            app:srcCompat="@drawable/imglibrobryan" />
     </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
             android:layout_width="350dp"
             android:layout_height="150dp"
-            app:cardBackgroundColor="@color/colorxxx"
+            app:cardBackgroundColor="#E6722323"
             app:cardCornerRadius="15dp"
-            tools:layout_editor_absoluteX="23dp"
-            tools:layout_editor_absoluteY="927dp" />
+            tools:layout_editor_absoluteX="7dp"
+            tools:layout_editor_absoluteY="705dp">
 
-        <TextView
-            android:id="@+id/textView7"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Mundos Gamificados
-"
-            tools:layout_editor_absoluteX="166dp"
-            tools:layout_editor_absoluteY="1093dp" />
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="152dp"
+                android:layout_height="100dp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/bryanmundo" />
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/bryancohete" />
+        </androidx.cardview.widget.CardView>
 
         <TextView
             android:id="@+id/textView5"
@@ -175,7 +195,26 @@
             tools:layout_editor_absoluteX="240dp"
             tools:layout_editor_absoluteY="651dp" />
 
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="77dp"
+            android:layout_height="122dp"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/bryanzzzz"
+            tools:layout_editor_absoluteX="313dp"
+            tools:layout_editor_absoluteY="121dp" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mundos Gamificados
+"
+            tools:layout_editor_absoluteX="119dp"
+            tools:layout_editor_absoluteY="871dp" />
+
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 
+</ScrollView>
