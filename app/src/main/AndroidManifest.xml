@@ -13,6 +13,18 @@
         android:theme="@style/Theme.MyApplicationICS"
         tools:targetApi="31">
         <activity
+            android:name=".BryanPantallaP"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
             android:name=".Perfil_Registro_Lenny"
             android:exported="false" />
         <activity
@@ -33,13 +45,10 @@
         <activity
             android:name=".Estadistica_Lectura"
             android:exported="false" />
-        <activity
-            android:name=".bryan_selecion_aprenidzaje_Act"
-            android:exported="false" />
+
         <activity
             android:name=".Daniel_Inicio_Sesion_Usuario"
             android:exported="false" />
-
         <activity
             android:name=".Luis_Retos"
             android:exported="false" />
@@ -70,22 +79,10 @@
         <activity
             android:name=".Alejandro_Aula_Invertida"
             android:exported="false" />
-        <activity
-            android:name=".MainActivitybryan3"
-            android:exported="false" />
+
         <activity
             android:name=".MainActivity3victor"
             android:exported="false" />
-
-        <activity
-            android:name=".MainActivity"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
     </application>
 
 </manifest>
