@@ -1,0 +1,90 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#ffffff"
+    android:padding="20dp"
+    android:fillViewport="true"
+    tools:context="com.example.myapplicationics.ui.simulacroANA.Simulacro_Matematicas_3">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="12dp"
+        android:gravity="center_horizontal">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:lineSpacingExtra="6dp"
+            android:text="Un empresario compra un apartamento de $80.000.000 (incluidos los intereses) y acuerda pagarlo en cuotas mensuales de igual valor. \n\nPara ello, le ofrecen las siguientes opciones de pago que se muestran en la tabla:"
+            android:textColor="#000000"
+            android:textSize="14sp" />
+
+        <ImageView
+            android:layout_width="328dp"
+            android:layout_height="194dp"
+            android:src="@drawable/tabla_mate" />
+
+        <TextView
+            android:layout_width="345dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:text="Respecto a la información de la tabla, es verdadero afirmar que:"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <RadioGroup
+            android:id="@+id/radioGroupOpciones"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/opcion1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A. El empresario paga más por el apartamento dependiendo de la cantidad de cuotas que decida pagar." />
+
+            <RadioButton
+                android:id="@+id/opcion2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="B. De manera proporcional, a mayor cantidad de cuotas menor valor se pagará en cada una de ellas." />
+
+            <RadioButton
+                android:id="@+id/opcion3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="C. El empresario paga solo el valor del apartamento únicamente cuando elige el menor número de cuotas." />
+
+            <RadioButton
+                android:id="@+id/opcion4"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+                android:text="D. De manera proporcional, a mayor valor pagado por cuota, más tiempo se tardará en pagar la deuda." />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/btnMate3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:backgroundTint="#00BFFF"
+            android:text="Siguiente"
+            android:layout_marginTop="20dp"
+            android:textColor="#ffffff"
+            android:textSize="16sp"
+            android:paddingHorizontal="32dp"
+            android:paddingVertical="10dp"
+            android:layout_marginBottom="24dp" />
+    </LinearLayout>
+</ScrollView>

@@ -5,7 +5,7 @@
     android:background="#ffffff"
     android:padding="25dp"
     android:fillViewport="true"
-    tools:context="com.example.myapplicationics.ui.simulacroANA.Estadistica_Lectura">
+    tools:context="com.example.myapplicationics.ui.simulacroANA.Estadistica_Matematicas">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -17,7 +17,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="SIMULACRO DE LECTURA CRÍTICA"
+            android:text="SIMULACRO DE MATEMATICAS"
             android:textStyle="bold"
             android:textSize="14sp"
             android:textColor="#666666"
@@ -31,10 +31,10 @@
             android:background="#cccccc" />
 
         <ImageView
-            android:layout_width="100dp"
+            android:layout_width="257dp"
             android:layout_height="100dp"
-            android:src="@drawable/prueba_lectura"
-            android:layout_marginBottom="20dp" />
+            android:layout_marginBottom="20dp"
+            android:src="@drawable/prueba_mate" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -67,7 +67,7 @@
             <ProgressBar
                 android:layout_width="100dp"
                 android:layout_height="8dp"
-                android:progress="3"
+                android:progress="2"
                 android:max="20"
                 android:progressTint="#00c853"
                 style="?android:attr/progressBarStyleHorizontal" />
@@ -75,7 +75,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="3"
+                android:text="2"
                 android:textSize="14sp"
                 android:textColor="#000000"
                 android:paddingStart="8dp" />
@@ -104,7 +104,7 @@
             <ProgressBar
                 android:layout_width="100dp"
                 android:layout_height="8dp"
-                android:progress="17"
+                android:progress="18"
                 android:max="20"
                 android:progressTint="#e91e63"
                 style="?android:attr/progressBarStyleHorizontal" />
@@ -112,7 +112,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="17"
+                android:text="18"
                 android:textSize="14sp"
                 android:textColor="#000000"
                 android:paddingStart="8dp" />
@@ -156,13 +156,13 @@
         </LinearLayout>
 
         <TextView
-            android:text="1   Identificar y entender los contenidos locales que conforman un texto"
+            android:text="1  Interpretación y representación"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="13sp"
             android:textColor="#000000" />
         <TextView
-            android:text="1/6"
+            android:text="1/12"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="end"
@@ -171,13 +171,13 @@
             android:layout_marginBottom="8dp" />
 
         <TextView
-            android:text="2   Comprender cómo se articulan las partes de un texto para darle un sentido global"
+            android:text="2  Formulación y ejecución"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="13sp"
             android:textColor="#000000" />
         <TextView
-            android:text="2/7"
+            android:text="1/3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="end"
@@ -186,13 +186,13 @@
             android:layout_marginBottom="8dp" />
 
         <TextView
-            android:text="3   Reflexionar a partir de un texto y evaluar su contenido"
+            android:text="3  Argumentación"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="13sp"
             android:textColor="#000000" />
         <TextView
-            android:text="0/7"
+            android:text="0/5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="end"
@@ -214,7 +214,7 @@
 
                 android:gravity="center"
                 android:padding="12dp"
-                android:text="1 min.\nTIEMPO EXAMEN"
+                android:text="2 min.\nTIEMPO EXAMEN"
                 android:textSize="12sp"
                 android:textColor="#333333" />
 
@@ -226,7 +226,7 @@
                 android:gravity="center"
                 android:padding="12dp"
                 android:layout_marginStart="8dp"
-                android:text="2.5 seg.\nTIEMPO * PREGUNTA"
+                android:text="5.0 seg.\nTIEMPO * PREGUNTA"
                 android:textSize="12sp"
                 android:textColor="#333333" />
         </LinearLayout>

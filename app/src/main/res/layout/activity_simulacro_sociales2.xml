@@ -1,0 +1,86 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#ffffff"
+    android:padding="15dp"
+    android:fillViewport="true"
+    tools:context="com.example.myapplicationics.ui.simulacroANA.Simulacro_Sociales_2">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="15dp"
+        android:gravity="center_horizontal">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:lineSpacingExtra="6dp"
+            android:text="Las directivas de un colegio decidieron suspender el servicio gratuito de transporte por falta de recursos económicos. Los estudiantes se mostraron en desacuerdo con esta medida porque muchos de ellos viven lejos del colegio y sus padres no tienen dinero para el transporte. Pese a que el personero transmitió la queja de los estudiantes a las directivas, ellas reafirmaron su decisión. En señal de protesta, los estudiantes decidieron ponerse el chaleco del uniforme al revés hasta que las directivas reactivaran el sistema de transporte. Ante esta situación, los profesores decidieron suspender temporalmente la sanción por mal porte del uniforme."
+            android:textColor="#000000"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:text="De acuerdo con la Constitución Política de Colombia, ¿es correcta la decisión que tomaron los profesores?"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <RadioGroup
+            android:id="@+id/radioGroupOpciones"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/opcion1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text=" A. Sí, porque los profesores están protegiendo el derecho a la protesta." />
+
+            <RadioButton
+                android:id="@+id/opcion2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text=" B. No, porque los estudiantes están afectando la imagen del colegio con su iniciativa." />
+
+            <RadioButton
+                android:id="@+id/opcion3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text=" C.  Sí, porque los profesores deben aceptar todas las iniciativas de los estudiantes." />
+
+            <RadioButton
+                android:id="@+id/opcion4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text=" D. No, porque los estudiantes deben portar bien el uniforme en cualquier circunstancia." />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/btnSociales2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:backgroundTint="#00BFFF"
+            android:text="Siguiente"
+            android:layout_marginTop="25dp"
+            android:textColor="#ffffff"
+            android:textSize="16sp"
+            android:paddingHorizontal="32dp"
+            android:paddingVertical="10dp"
+            />
+    </LinearLayout>
+</ScrollView>

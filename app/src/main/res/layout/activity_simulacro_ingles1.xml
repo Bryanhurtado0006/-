@@ -1,0 +1,77 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#ffffff"
+    android:padding="40dp"
+    android:fillViewport="true"
+    tools:context="com.example.myapplicationics.ui.simulacroANA.Simulacro_Ingles_1">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:lineSpacingExtra="6dp"
+            android:text="Dónde puedes ver este aviso?"
+            android:textColor="#000000"
+            android:textSize="14sp" />
+
+        <ImageView
+            android:layout_width="340dp"
+            android:layout_height="200dp"
+            android:src="@drawable/ingles_1" />
+
+
+        <RadioGroup
+            android:id="@+id/radioGroupOpciones"
+            android:layout_width="match_parent"
+            android:layout_marginTop="30dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/opcion1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" A. at a movie theater" />
+
+            <RadioButton
+                android:id="@+id/opcion2"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_height="wrap_content"
+                android:text=" B. at a sports center" />
+
+            <RadioButton
+                android:id="@+id/opcion3"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_height="wrap_content"
+                android:text=" C.  at a toy store" />
+
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/btnIngles1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:backgroundTint="#00BFFF"
+            android:text="Siguiente"
+            android:layout_marginTop="80dp"
+            android:textColor="#ffffff"
+            android:textSize="16sp"
+            android:paddingHorizontal="32dp"
+            android:paddingVertical="10dp"
+            />
+    </LinearLayout>
+</ScrollView>

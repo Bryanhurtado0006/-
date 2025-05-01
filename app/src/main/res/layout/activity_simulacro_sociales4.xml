@@ -1,0 +1,93 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#ffffff"
+    android:padding="19dp"
+    android:fillViewport="true"
+    tools:context="com.example.myapplicationics.ui.simulacroANA.Simulacro_Sociales_4">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="12dp"
+        android:gravity="center_horizontal">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:lineSpacingExtra="6dp"
+            android:text="Analiza la siguiente caricatura elaborada por Manuel Parra Pardo en 1961."
+            android:textColor="#000000"
+            android:textSize="14sp" />
+
+        <ImageView
+            android:id="@+id/menu"
+            android:layout_width="351dp"
+            android:layout_height="159dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/sociales" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:text="¿Por cuál de las siguientes razones puede afirmarse que la caricatura representa el contexto político del Frente Nacional?"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <RadioGroup
+            android:id="@+id/radioGroupOpciones"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/opcion1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text=" A. La caricatura ilustra a los líderes de todos los partidos políticos y las Fuerzas Militares dirigiendo el Frente Nacional, un acuerdo de unidad nacional que se propuso superar la desigualdad social." />
+
+            <RadioButton
+                android:id="@+id/opcion2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text=" B. La caricatura ilustra a líderes políticos intentando salvar el Frente Nacional, un pacto entre las élites de los partidos tradicionales que promovió la exclusión de movimientos alternativos en el país." />
+
+            <RadioButton
+                android:id="@+id/opcion3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text=" C. La caricatura ilustra a los líderes de las Fuerzas Militares y el Partido Liberal que pactaron el Frente Nacional para derrocar al Gobierno, después del asesinato de Jorge Eliécer Gaitán en 1948." />
+
+            <RadioButton
+                android:id="@+id/opcion4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text=" D. La caricatura ilustra a líderes de las Fuerzas Militares y el Partido Conservador en el Frente Nacional, intentando salvar la dictadura de Rojas Pinilla para evitar que el comunismo llegue al poder."/>
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/btnSociales4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:backgroundTint="#00BFFF"
+            android:text="Siguiente"
+            android:layout_marginTop="20dp"
+            android:textColor="#ffffff"
+            android:textSize="16sp"
+            android:paddingHorizontal="32dp"
+            android:paddingVertical="10dp"
+            />
+    </LinearLayout>
+</ScrollView>

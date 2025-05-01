@@ -1,0 +1,90 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#ffffff"
+    android:padding="30dp"
+    android:fillViewport="true"
+    tools:context="com.example.myapplicationics.ui.simulacroANA.Simulacro_Naturales_2">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:lineSpacingExtra="6dp"
+            android:text="Desde la playa de un río, un niño observa un velero de juguete sobre el que actúan tres fuerzas en dirección horizontal, como lo muestra la siguiente figura:"
+            android:textColor="#000000"
+            android:textSize="14sp" />
+
+        <ImageView
+            android:layout_width="340dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/natu_2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:text="Teniendo en cuenta la información anterior, el velero se mueve hacia la derecha porque"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <RadioGroup
+            android:id="@+id/radioGroupOpciones"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/opcion1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" A. La fuerza del motor por sí sola es capaz de mover el bote hacia la derecha, sin importar las demás fuerzas." />
+
+            <RadioButton
+                android:id="@+id/opcion2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text=" B.   Hay una cancelación exacta entre las tres fuerzas que actúan sobre el bote y el bote sigue su movimiento inicial." />
+
+            <RadioButton
+                android:id="@+id/opcion3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text=" C. La magnitud de la fuerza del viento sumada a la del motor es mayor que la magnitud de la fuerza del río." />
+
+            <RadioButton
+                android:id="@+id/opcion4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text=" D. Hay dos fuerzas que van hacia la derecha mientras que solamente una fuerza va hacia la izquierda." />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/btnNatu2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:backgroundTint="#00BFFF"
+            android:text="Siguiente"
+            android:layout_marginTop="20dp"
+            android:textColor="#ffffff"
+            android:textSize="16sp"
+            android:paddingHorizontal="32dp"
+            android:paddingVertical="10dp"
+            />
+    </LinearLayout>
+</ScrollView>

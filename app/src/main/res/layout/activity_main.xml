@@ -8,15 +8,6 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
     <Button
         android:layout_width="200dp"
         android:id="@+id/btn_Material"
@@ -31,9 +22,16 @@
         android:id="@+id/btn_Registro"
         android:layout_height="100dp"
         android:layout_gravity="center"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="30dp"
         android:text="Material"
         android:textSize="30dp"/>
 
-
+    <Button
+        android:layout_width="300dp"
+        android:id="@+id/btnSimulacro_Estadistica"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:text="Simulacro_Estadistica"
+        android:textSize="24dp"/>
 </LinearLayout>

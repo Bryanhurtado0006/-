@@ -5,7 +5,7 @@
     android:background="#ffffff"
     android:padding="25dp"
     android:fillViewport="true"
-    tools:context="com.example.myapplicationics.ui.simulacroANA.Estadistica_Lectura">
+    tools:context="com.example.myapplicationics.ui.simulacroANA.Estadistica_Sociales">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -17,7 +17,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="SIMULACRO DE LECTURA CRÍTICA"
+            android:text="SIMULACRO DE SOCIALES Y CIUDADANAS"
             android:textStyle="bold"
             android:textSize="14sp"
             android:textColor="#666666"
@@ -31,10 +31,10 @@
             android:background="#cccccc" />
 
         <ImageView
-            android:layout_width="100dp"
+            android:layout_width="361dp"
             android:layout_height="100dp"
-            android:src="@drawable/prueba_lectura"
-            android:layout_marginBottom="20dp" />
+            android:layout_marginBottom="20dp"
+            android:src="@drawable/prueba_sociales" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -67,7 +67,7 @@
             <ProgressBar
                 android:layout_width="100dp"
                 android:layout_height="8dp"
-                android:progress="3"
+                android:progress="6"
                 android:max="20"
                 android:progressTint="#00c853"
                 style="?android:attr/progressBarStyleHorizontal" />
@@ -75,7 +75,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="3"
+                android:text="6"
                 android:textSize="14sp"
                 android:textColor="#000000"
                 android:paddingStart="8dp" />
@@ -104,7 +104,7 @@
             <ProgressBar
                 android:layout_width="100dp"
                 android:layout_height="8dp"
-                android:progress="17"
+                android:progress="14"
                 android:max="20"
                 android:progressTint="#e91e63"
                 style="?android:attr/progressBarStyleHorizontal" />
@@ -112,7 +112,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="17"
+                android:text="14"
                 android:textSize="14sp"
                 android:textColor="#000000"
                 android:paddingStart="8dp" />
@@ -141,7 +141,7 @@
             <ProgressBar
                 android:layout_width="100dp"
                 android:layout_height="8dp"
-                android:progress="1"
+                android:progress="2"
                 android:max="5"
                 android:progressTint="#673ab7"
                 style="?android:attr/progressBarStyleHorizontal" />
@@ -149,20 +149,20 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="1"
+                android:text="2"
                 android:textSize="14sp"
                 android:textColor="#000000"
                 android:paddingStart="8dp" />
         </LinearLayout>
 
         <TextView
-            android:text="1   Identificar y entender los contenidos locales que conforman un texto"
+            android:text="1  Pensamiento social"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="13sp"
             android:textColor="#000000" />
         <TextView
-            android:text="1/6"
+            android:text="4/5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="end"
@@ -171,13 +171,13 @@
             android:layout_marginBottom="8dp" />
 
         <TextView
-            android:text="2   Comprender cómo se articulan las partes de un texto para darle un sentido global"
+            android:text="2 Interpretación y análisis de perspectivas"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="13sp"
             android:textColor="#000000" />
         <TextView
-            android:text="2/7"
+            android:text="2/10"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="end"
@@ -186,13 +186,13 @@
             android:layout_marginBottom="8dp" />
 
         <TextView
-            android:text="3   Reflexionar a partir de un texto y evaluar su contenido"
+            android:text="3  Pensamiento reflexivo y sistémico"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="13sp"
             android:textColor="#000000" />
         <TextView
-            android:text="0/7"
+            android:text="0/5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="end"

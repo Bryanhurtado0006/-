@@ -7,58 +7,26 @@
     android:fillViewport="true">
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/main"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#FFFFFF"
         android:padding="16dp"
+        android:background="#FFFFFF"
         tools:context=".BryanPantallaP">
 
-
-        <androidx.cardview.widget.CardView
-            android:id="@+id/cardView"
-            android:layout_width="145dp"
-            android:layout_height="130dp"
-            app:cardBackgroundColor="#E2D68F"
-            app:cardCornerRadius="15dp"
-            tools:layout_editor_absoluteX="23dp"
-            tools:layout_editor_absoluteY="482dp" >
-
-            <ImageView
-                android:id="@+id/imageView6"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                app:srcCompat="@drawable/imgbryanlapiz" />
-        </androidx.cardview.widget.CardView>
-
-        <androidx.cardview.widget.CardView
-            android:id="@+id/cardView"
-            android:layout_width="145dp"
-            android:layout_height="130dp"
-            app:cardBackgroundColor="#858585"
-            app:cardCornerRadius="15dp"
-            tools:layout_editor_absoluteX="207dp"
-            tools:layout_editor_absoluteY="484dp" >
-
-            <ImageView
-                android:id="@+id/imageView5"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                app:srcCompat="@drawable/imgbryanganador" />
-        </androidx.cardview.widget.CardView>
-
+        <!-- Título -->
         <TextView
-        android:id="@+id/appTitleText"
-        android:layout_width="106dp"
-        android:layout_height="29dp"
-        android:text="ICFES-PF"
-        android:textColor="#000000"
-        android:textSize="24sp"
+            android:id="@+id/appTitleText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ICFES-PF"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"/>
 
-        android:textStyle="bold"
-        tools:layout_editor_absoluteX="143dp"
-        tools:layout_editor_absoluteY="16dp" />
-
+        <!-- Imagen de usuario -->
         <ImageView
             android:id="@+id/imageView"
             android:layout_width="81dp"
@@ -66,155 +34,215 @@
             android:background="@drawable/borde"
             android:scaleType="centerCrop"
             app:srcCompat="@drawable/bryaniamgen"
-            tools:layout_editor_absoluteX="16dp"
-            tools:layout_editor_absoluteY="80dp" />
+            app:layout_constraintTop_toBottomOf="@+id/appTitleText"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="16dp"/>
 
+        <!-- Textos de bienvenida -->
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="¡Bienvenido a ICFES-PF!"
+            android:textColor="#000000"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/imageView"
+            app:layout_constraintTop_toTopOf="@+id/imageView"
+            android:layout_marginStart="8dp"/>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Donde aprender para el ICFES se"
+            app:layout_constraintTop_toBottomOf="@+id/textView4"
+            app:layout_constraintStart_toStartOf="@+id/textView4"/>
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="convierte en una aventura."
+            app:layout_constraintTop_toBottomOf="@+id/textView2"
+            app:layout_constraintStart_toStartOf="@+id/textView4"/>
+
+        <!-- Sección de interés -->
         <TextView
             android:id="@+id/sectionTitle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Seccion de Interes"
+            android:text="Sección de Interés"
             android:textColor="#000000"
             android:textSize="18sp"
             android:textStyle="bold"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.109"
+            app:layout_constraintTop_toBottomOf="@+id/imageView"
             app:layout_constraintStart_toStartOf="parent"
-            tools:layout_editor_absoluteY="229dp" />
+            android:layout_marginTop="32dp"/>
 
-        <TextView
-        android:id="@+id/textView4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-
-        android:text="¡Bienvenido  a ICFES-PF!"
-        android:textColor="#000000"
-        android:textSize="14sp"
-        android:textStyle="bold"
-        tools:layout_editor_absoluteX="127dp"
-        tools:layout_editor_absoluteY="85dp" />
-
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="convierte en una aventura."
-        tools:layout_editor_absoluteX="119dp"
-        tools:layout_editor_absoluteY="155dp" />
-
-        <TextView
-            android:id="@+id/textView2"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:text="Donde aprender para el ICFES se"
-            tools:layout_editor_absoluteX="103dp"
-            tools:layout_editor_absoluteY="120dp" />
-
+        <!-- Card 1 -->
         <androidx.cardview.widget.CardView
-            android:id="@+id/cardView"
+            android:id="@+id/cardRetos"
+            android:layout_width="145dp"
+            android:layout_height="130dp"
+            app:cardBackgroundColor="@color/colorx"
+            app:cardCornerRadius="15dp"
+            app:layout_constraintTop_toBottomOf="@id/sectionTitle"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="16dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView3"
+                app:srcCompat="@drawable/imglibrobryan"/>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Card 2 -->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardProgreso"
             android:layout_width="145dp"
             android:layout_height="130dp"
             app:cardBackgroundColor="#E1F0FD"
             app:cardCornerRadius="15dp"
-            tools:layout_editor_absoluteX="212dp"
-            tools:layout_editor_absoluteY="280dp" >
+            app:layout_constraintTop_toTopOf="@id/cardRetos"
+            app:layout_constraintEnd_toEndOf="parent">
 
             <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:id="@+id/imageView4"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                app:srcCompat="@drawable/imgbryanlibriii" />
+                app:srcCompat="@drawable/imgbryanlibriii"/>
         </androidx.cardview.widget.CardView>
 
-    <androidx.cardview.widget.CardView
-        android:layout_width="145dp"
-        android:layout_height="130dp"
-        app:cardBackgroundColor="@color/colorx"
-        app:cardCornerRadius="15dp"
-        tools:layout_editor_absoluteX="26dp"
-        tools:layout_editor_absoluteY="278dp">
-
-        <ImageView
-            android:id="@+id/imageView3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            app:srcCompat="@drawable/imglibrobryan" />
-    </androidx.cardview.widget.CardView>
-
-        <androidx.cardview.widget.CardView
-            android:layout_width="350dp"
-            android:layout_height="150dp"
-            app:cardBackgroundColor="#E6722323"
-            app:cardCornerRadius="15dp"
-            tools:layout_editor_absoluteX="7dp"
-            tools:layout_editor_absoluteY="705dp">
-
-            <ImageView
-                android:id="@+id/imageView7"
-                android:layout_width="152dp"
-                android:layout_height="100dp"
-                android:scaleType="centerCrop"
-                app:srcCompat="@drawable/bryanmundo" />
-
-            <ImageView
-                android:id="@+id/imageView8"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                app:srcCompat="@drawable/bryancohete" />
-        </androidx.cardview.widget.CardView>
-
-        <TextView
-            android:id="@+id/textView5"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Orientación  vocacional"
-            tools:layout_editor_absoluteX="21dp"
-            tools:layout_editor_absoluteY="648dp" />
-
+        <!-- Textos de tarjetas -->
         <TextView
             android:id="@+id/textView8"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Retos Semanales"
-            tools:layout_editor_absoluteX="42dp"
-            tools:layout_editor_absoluteY="433dp" />
+            app:layout_constraintTop_toBottomOf="@id/cardRetos"
+            app:layout_constraintStart_toStartOf="@id/cardRetos"
+            android:layout_marginTop="8dp"/>
 
         <TextView
             android:id="@+id/textView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Progreso"
-            tools:layout_editor_absoluteX="256dp"
-            tools:layout_editor_absoluteY="436dp" />
+            app:layout_constraintTop_toBottomOf="@id/cardProgreso"
+            app:layout_constraintStart_toStartOf="@id/cardProgreso"
+            android:layout_marginTop="8dp"/>
+
+        <!-- Card 3 -->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardInsignias"
+            android:layout_width="145dp"
+            android:layout_height="130dp"
+            app:cardBackgroundColor="#E2D68F"
+            app:cardCornerRadius="15dp"
+            app:layout_constraintTop_toBottomOf="@id/textView8"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="24dp">
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/imgbryanlapiz"/>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Card 4 -->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardGanador"
+            android:layout_width="145dp"
+            android:layout_height="130dp"
+            app:cardBackgroundColor="#858585"
+            app:cardCornerRadius="15dp"
+            app:layout_constraintTop_toTopOf="@id/cardInsignias"
+            app:layout_constraintEnd_toEndOf="parent">
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/imgbryanganador"/>
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Orientación vocacional"
+            app:layout_constraintTop_toBottomOf="@id/cardInsignias"
+            app:layout_constraintStart_toStartOf="@id/cardInsignias"
+            android:layout_marginTop="8dp"/>
 
         <TextView
             android:id="@+id/textView6"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Mis insignias"
-            tools:layout_editor_absoluteX="240dp"
-            tools:layout_editor_absoluteY="651dp" />
+            app:layout_constraintTop_toBottomOf="@id/cardGanador"
+            app:layout_constraintStart_toStartOf="@id/cardGanador"
+            android:layout_marginTop="8dp"/>
 
+        <!-- Imagen decorativa derecha -->
         <ImageView
             android:id="@+id/imageView2"
             android:layout_width="77dp"
             android:layout_height="122dp"
             android:scaleType="centerCrop"
             app:srcCompat="@drawable/bryanzzzz"
-            tools:layout_editor_absoluteX="313dp"
-            tools:layout_editor_absoluteY="121dp" />
+            app:layout_constraintTop_toTopOf="@id/cardProgreso"
+            app:layout_constraintEnd_toEndOf="parent"/>
+
+        <!-- Card inferior con dos imágenes -->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardMundos"
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            app:cardBackgroundColor="#E6722323"
+            app:cardCornerRadius="15dp"
+            app:layout_constraintTop_toBottomOf="@id/textView5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="24dp">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/imageView7"
+                    android:layout_width="152dp"
+                    android:layout_height="100dp"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/bryanmundo"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    android:layout_margin="8dp"/>
+
+                <ImageView
+                    android:id="@+id/imageView8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/bryancohete"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    android:layout_margin="8dp"/>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.cardview.widget.CardView>
 
         <TextView
             android:id="@+id/textView7"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Mundos Gamificados
-"
-            tools:layout_editor_absoluteX="119dp"
-            tools:layout_editor_absoluteY="871dp" />
-
+            android:text="Mundos Gamificados"
+            app:layout_constraintTop_toBottomOf="@id/cardMundos"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="32dp"/>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
-
-
 </ScrollView>

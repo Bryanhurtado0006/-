@@ -13,6 +13,9 @@
         android:theme="@style/Theme.MyApplicationICS"
         tools:targetApi="31">
         <activity
+            android:name=".ui.simulacroANA.Examen_Completado_2"
+            android:exported="false" />
+        <activity
             android:name=".BryanPantallaP"
             android:exported="false" />
         <activity
@@ -45,7 +48,6 @@
         <activity
             android:name=".Estadistica_Lectura"
             android:exported="false" />
-
         <activity
             android:name=".Daniel_Inicio_Sesion_Usuario"
             android:exported="false" />
@@ -65,7 +67,7 @@
             android:name=".Simulacro_Lectura_2"
             android:exported="false" />
         <activity
-            android:name=".Simulacro_Lectura_1"
+            android:name=".ui.simulacroANA.Simulacro_Lectura_1"
             android:exported="false" />
         <activity
             android:name=".StivenEvaluaciones"
@@ -79,7 +81,6 @@
         <activity
             android:name=".Alejandro_Aula_Invertida"
             android:exported="false" />
-
         <activity
             android:name=".MainActivity3victor"
             android:exported="false" />
