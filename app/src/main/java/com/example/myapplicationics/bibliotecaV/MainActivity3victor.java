@@ -1,10 +1,12 @@
-package com.example.myapplicationics;
+package com.example.myapplicationics.bibliotecaV;
 
 import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.example.myapplicationics.R;
 import com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton;
 
 

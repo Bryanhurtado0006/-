@@ -1,15 +1,13 @@
-package com.example.myapplicationics;
+package com.example.myapplicationics.bibliotecaV;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.graphics.Insets;
-import androidx.core.view.ViewCompat;
-import androidx.core.view.WindowInsetsCompat;
 
+import com.example.myapplicationics.Consejos;
+import com.example.myapplicationics.R;
 import com.example.myapplicationics.databinding.ActivityMaterialIfecsBinding;
 
 public class MaterialIfecs extends AppCompatActivity {
@@ -27,7 +25,7 @@ protected void onCreate(Bundle savedInstanceState) {
 	bing.btnConsejos.setOnClickListener(new View.OnClickListener() {
 		@Override
 		public void onClick(View v) {
-			Intent irConsejos=new Intent(MaterialIfecs.this,Consejos.class);
+			Intent irConsejos=new Intent(MaterialIfecs.this, Consejos.class);
 			startActivity(irConsejos);
 			
 		}
