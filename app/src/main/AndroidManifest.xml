@@ -13,11 +13,12 @@
         android:theme="@style/Theme.MyApplicationICS"
         tools:targetApi="31">
         <activity
-            android:name=".ui.simulacroANA.Examen_Completado_2"
+            android:name=".dashboarBB.MainActivity_pantallaP"
             android:exported="false" />
         <activity
-            android:name=".BryanPantallaP"
+            android:name=".ui.simulacroANA.Examen_Completado_2"
             android:exported="false" />
+        
         <activity
             android:name=".MainActivity"
             android:exported="true">
