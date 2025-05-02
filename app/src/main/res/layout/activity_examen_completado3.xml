@@ -6,7 +6,7 @@
     android:background="#ffffff"
     android:padding="20dp"
     android:fillViewport="true"
-    tools:context="com.example.myapplicationics.ui.simulacroANA.Examen_Completado">
+    tools:context="com.example.myapplicationics.ui.simulacroANA.Examen_Completado_3">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -15,6 +15,7 @@
         android:layout_marginTop="280dp"
         android:gravity="center_horizontal">
 
+        <!-- Título principal -->
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -24,6 +25,7 @@
             android:textColor="#4A3AFF"
             android:layout_marginBottom="12dp" />
 
+        <!-- Subtítulo -->
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -33,14 +35,16 @@
             android:gravity="center"
             android:layout_marginBottom="24dp" />
 
+        <!-- Línea separadora -->
         <View
             android:layout_width="80dp"
             android:layout_height="2dp"
             android:background="#CCCCCC"
             android:layout_marginBottom="30dp" />
 
+        <!-- Botón personalizado -->
         <Button
-            android:id="@+id/btn_finalizar"
+            android:id="@+id/btn_finalizar_3"
             android:layout_width="200dp"
             android:layout_height="50dp"
             android:text="Finalizar"
