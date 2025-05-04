@@ -23,13 +23,6 @@
         android:contentDescription="Imagen de ejemplo" />
 
     <Button
-        android:id="@+id/btnRegistrarme_Daniel"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="REGISTRARME"
-        android:layout_marginTop="80dp" />
-
-    <Button
         android:id="@+id/btnInico_Sesion_Daniel"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
