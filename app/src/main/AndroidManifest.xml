@@ -7,7 +7,7 @@
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
         android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
+
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplicationICS"
@@ -66,18 +66,7 @@
         <activity
             android:name=".Examen_Completado"
             android:exported="false" />
-        <activity
-            android:name=".Simulacro_Lectura_4"
-            android:exported="false" />
-        <activity
-            android:name=".Simulacro_Lectura_3"
-            android:exported="false" />
-        <activity
-            android:name=".Simulacro_Lectura_2"
-            android:exported="false" />
-        <activity
-            android:name=".ui.simulacroANA.Simulacro_Lectura_1"
-            android:exported="false" />
+
         <activity
             android:name=".StivenEvaluaciones"
             android:exported="false" />
@@ -88,6 +77,9 @@
 
         <activity
             android:name=".bibliotecaV.MainActivity3victor"
+            android:exported="false" />
+        <activity
+            android:name=".ui.simulacroANA.Simulacro_Lectura_1"
             android:exported="false" />
     </application>
 
