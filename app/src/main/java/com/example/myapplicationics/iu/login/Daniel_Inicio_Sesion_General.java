@@ -9,7 +9,6 @@ import com.example.myapplicationics.databinding.ActivityDanielInicioSesionRegist
 
 public class Daniel_Inicio_Sesion_General extends AppCompatActivity {
 
-
     private ActivityDanielInicioSesionRegistroBinding binding;
 
     @Override
@@ -19,7 +18,7 @@ public class Daniel_Inicio_Sesion_General extends AppCompatActivity {
         binding = ActivityDanielInicioSesionRegistroBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 
-        binding.btnRestablecer.setOnClickListener(v -> {
+        binding.btnInicoSecion.setOnClickListener(v -> {
             Intent intent = new Intent(this, Daniel_restablecer_contrasena_1.class);
             startActivity(intent);
         });

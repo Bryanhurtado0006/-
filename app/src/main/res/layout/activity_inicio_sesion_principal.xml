@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="INICIO SESIÓN USUARIO"
+            android:textSize="26sp"
+            android:gravity="center"
+            android:layout_marginBottom="20dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="190dp"
+            android:layout_marginBottom="30dp"
+            android:layout_marginTop="60dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:src="@drawable/icono_registro_daniel" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ingresa tu correo electrónico:" />
+
+        <EditText
+            android:id="@+id/et_correo_Daniel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="tucorreo@ejemplo.com"
+            android:inputType="textEmailAddress"
+            android:minHeight="48dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="Ahora ingresa tu contraseña:" />
+
+        <EditText
+            android:id="@+id/et_contraseña_Daniel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Contraseña"
+            android:inputType="textPassword"
+            android:minHeight="48dp" />
+
+        <TextView
+            android:id="@+id/ed_restablecer_contraseña_Daniel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:gravity="center"
+            android:text="¿Olvidaste tu contraseña?"
+            android:textSize="16sp"
+            android:textColor="@android:color/holo_blue_dark" />
+
+        <Button
+            android:id="@+id/btnIrInicio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="INICIAR SESION"
+            android:layout_marginTop="20dp" />
+
+    </LinearLayout>
+</ScrollView>
