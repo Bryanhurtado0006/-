@@ -12,9 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplicationICS"
         tools:targetApi="31">
-        <activity
-            android:name=".Stiven_Icfes4"
-            android:exported="false" />
+
         <activity
             android:name=".Stiven_Icfes3"
             android:exported="false" />
