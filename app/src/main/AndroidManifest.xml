@@ -13,12 +13,23 @@
         android:theme="@style/Theme.MyApplicationICS"
         tools:targetApi="31">
         <activity
+            android:name=".Stiven_Icfes4"
+            android:exported="false" />
+        <activity
+            android:name=".Stiven_Icfes3"
+            android:exported="false" />
+        <activity
+            android:name=".Stiven_Icfes2"
+            android:exported="false" />
+        <activity
+            android:name=".Stiven_Icfes"
+            android:exported="false" />
+        <activity
             android:name=".dashboarBB.MainActivity_pantallaP"
             android:exported="false" />
         <activity
             android:name=".ui.simulacroANA.Examen_Completado_2"
             android:exported="false" />
-        
         <activity
             android:name=".MainActivity"
             android:exported="true">
