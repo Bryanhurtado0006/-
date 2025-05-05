@@ -26,7 +26,7 @@
             android:layout_marginTop="60dp"
             android:adjustViewBounds="true"
             android:scaleType="fitCenter"
-            android:src="@drawable/icono_registro_daniel" />
+            android:src="@drawable/robot_inicio_sesion" />
 
         <TextView
             android:layout_width="match_parent"
