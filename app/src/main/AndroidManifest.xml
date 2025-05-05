@@ -46,22 +46,19 @@
             android:name=".Cuentas_Registro_Lenny"
             android:exported="false" />
         <activity
-            android:name=".Daniel_restablecer_contrasena_1"
+            android:name=".iu.login.Daniel_restablecer_contrasena_1"
             android:exported="false" />
         <activity
-            android:name=".Daniel_restablecer_contrasena_3"
+            android:name=".iu.login.Daniel_restablecer_contrasena_3"
             android:exported="false" />
         <activity
-            android:name=".Daniel_restablecer_contrasena_2"
+            android:name=".iu.login.Daniel_restablecer_contrasena_2"
             android:exported="false" />
         <activity
             android:name=".JohnDavid"
             android:exported="false" />
         <activity
             android:name=".Estadistica_Lectura"
-            android:exported="false" />
-        <activity
-            android:name=".Daniel_Inicio_Sesion_Usuario"
             android:exported="false" />
         <activity
             android:name=".Luis_Retos"

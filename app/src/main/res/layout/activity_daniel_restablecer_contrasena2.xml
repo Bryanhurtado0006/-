@@ -42,11 +42,10 @@
         android:minHeight="48dp" />
 
     <Button
-        android:id="@+id/btnRecuperar_Contraseña_2_Daniel"
-        android:layout_width="match_parent"
+        android:id="@+id/btnContinuar"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:minHeight="48dp"
-        android:text="SIGUIENTE" />
+        android:text="Continuar" />
+
 
 </LinearLayout>
