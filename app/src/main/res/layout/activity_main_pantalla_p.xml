@@ -8,6 +8,8 @@
     android:background="@color/white"
     tools:context=".dashboarBB.MainActivity_pantallaP">
 
+
+
     <!-- Cabecera con degradado -->
     <View
         android:id="@+id/top_view"
@@ -244,4 +246,18 @@
 
     </GridLayout>
 
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/white"
+        app:itemIconTint="@color/black"
+        app:itemTextColor="@color/black"
+        app:headerLayout="@layout/nav_header"
+        app:menu="@menu/activity_main_drawer" />
+
+
+
 </RelativeLayout>
+
