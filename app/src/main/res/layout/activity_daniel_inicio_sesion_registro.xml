@@ -18,7 +18,7 @@
         android:id="@+id/imagenIcfes"
         android:layout_width="wrap_content"
         android:layout_height="220dp"
-        android:src="@drawable/icono_registro_daniel"
+        android:src="@drawable/robot_inicio_sesion_principal"
         android:layout_marginTop="60dp"
         android:contentDescription="Imagen de ejemplo" />
 
