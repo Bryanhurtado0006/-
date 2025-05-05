@@ -1,10 +1,93 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#EBDDC7"
     tools:context=".Gamificacion_LUIS.Ruleta_LUIS">
+
+    <!-- Título principal -->
+    <TextView
+        android:id="@+id/titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AVENTURA"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintTop_margin="36dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <!-- Subtítulo -->
+    <TextView
+        android:id="@+id/subtitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RULETA"
+        android:background="#66BB6A"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:padding="8dp"
+        app:layout_constraintTop_toBottomOf="@id/titulo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_margin="8dp"/>
+
+    <!-- Contenedor de ruleta con flecha -->
+    <FrameLayout
+        android:id="@+id/frameRuleta"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        app:layout_constraintTop_toBottomOf="@id/subtitulo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_margin="30dp">
+
+        <com.example.myapplicationics.Gamificacion_LUIS.RuletaView
+            android:id="@+id/ruletaView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <ImageView
+            android:id="@+id/flecha"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="top|center_horizontal"
+            android:layout_marginTop="-10dp"
+            android:rotation="180"
+            android:src="@drawable/yo" />
+    </FrameLayout>
+
+    <!-- Instrucciones -->
+    <TextView
+        android:id="@+id/instrucciones"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gira la ruleta para responder preguntas y ganar puntos"
+        android:padding="12dp"
+        android:background="#E6E29C"
+        android:textColor="#000000"
+        app:layout_constraintTop_toBottomOf="@id/frameRuleta"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_margin="24dp"/>
+
+    <!-- Botón para girar -->
+    <Button
+        android:id="@+id/btnGirar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GIRAR"
+        android:backgroundTint="#B0BEC5"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/instrucciones"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_margin="24dp"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
