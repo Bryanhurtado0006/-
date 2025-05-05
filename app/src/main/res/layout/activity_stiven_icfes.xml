@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    android:padding="16dp">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="9:41"
+        android:textSize="14sp"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:paddingBottom="8dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@android:drawable/ic_menu_sort_by_size"
+            android:contentDescription="Menú" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:text="Icfes"
+            android:background="#D3D3D3"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_gravity="center"
+            android:padding="8dp"
+            android:backgroundTint="#D3D3D3"
+            android:drawablePadding="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="16dp" />
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/btnEvaluaciones"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Evaluaciones"
+        android:textStyle="bold"
+        android:textColor="#000000"
+
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/btnRespuestas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Respuestas"
+        android:textStyle="bold"
+        android:textColor="#000000"
+
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/btnResultados"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Resultados"
+        android:textStyle="bold"
+        android:textColor="#000000"
+
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/btnEstadisticas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Estadísticas"
+        android:textStyle="bold"
+        android:textColor="#000000"
+
+        android:layout_marginTop="16dp" />
+
+</LinearLayout>

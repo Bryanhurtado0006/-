@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Barra de estado -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="9:41"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:textSize="14sp" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:paddingTop="8dp"
+            android:paddingBottom="16dp">
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@android:drawable/ic_menu_sort_by_size"
+                android:contentDescription="Menú" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:text="Matematicas"
+                android:gravity="center"
+
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp" />
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="¿Cuál es el valor de xxx en la ecuación 3x–5=2x+43x–5 = 2x 43x–5=2x+4?"
+            android:textSize="14sp"
+            android:textColor="#000000"
+            android:layout_marginTop="8dp" />
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="2"
+            android:layout_marginTop="4dp">
+
+            <TextView android:text="A. 1" style="@style/OpcionEstilo"/>
+            <TextView android:text="B. 9" style="@style/OpcionEstilo"/>
+            <TextView android:text="C. -1" style="@style/OpcionEstilo"/>
+            <TextView android:text="D. -9" style="@style/OpcionEstilo"/>
+        </GridLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Un triángulo tiene lados de 5 cm, 12 cm y 13 cm. ¿Qué tipo de triángulo es?"
+            android:textSize="14sp"
+            android:layout_marginTop="16dp" />
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="2"
+            android:layout_marginTop="4dp">
+
+            <TextView android:text="A. Equilátero" style="@style/OpcionEstilo"/>
+            <TextView android:text="B. Escaleno" style="@style/OpcionEstilo"/>
+            <TextView android:text="C. Isósceles" style="@style/OpcionEstilo"/>
+            <TextView android:text="D. Rectángulo" style="@style/OpcionEstilo"/>
+        </GridLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Un triángulo tiene lados de 5 cm, 12 cm y 13 cm. ¿Qué tipo de triángulo es?"
+            android:textSize="14sp"
+            android:layout_marginTop="16dp" />
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="2"
+            android:layout_marginTop="4dp">
+
+            <TextView android:text="A. 11" style="@style/OpcionEstilo"/>
+            <TextView android:text="B. 10" style="@style/OpcionEstilo"/>
+            <TextView android:text="C. 8" style="@style/OpcionEstilo"/>
+            <TextView android:text="D. 6" style="@style/OpcionEstilo"/>
+        </GridLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Resuelve la siguiente expresión algebraica: (2x+3)(x–4)"
+            android:textSize="14sp"
+            android:layout_marginTop="16dp" />
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="2"
+            android:layout_marginTop="4dp">
+
+            <TextView android:text="A. 2x2–5x–12" style="@style/OpcionEstilo"/>
+            <TextView android:text="B. 2x2–5x+12" style="@style/OpcionEstilo"/>
+            <TextView android:text="C. 2x2–8x+3x–12" style="@style/OpcionEstilo"/>
+            <TextView android:text="D. 2x2–5x–3" style="@style/OpcionEstilo"/>
+        </GridLayout>
+    </LinearLayout>
+</ScrollView>
