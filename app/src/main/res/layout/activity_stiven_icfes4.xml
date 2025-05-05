@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:padding="16dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="9:41"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:textSize="14sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:paddingTop="8dp"
+            android:paddingBottom="16dp">
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@android:drawable/ic_menu_sort_by_size"
+                android:contentDescription="Menu" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:text="Ingles"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp" />
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="The boy was so eager to open his birthday gift that he didn’t even wait for his parents.\nThe word “eager” most likely means:"
+            android:textSize="14sp"
+            android:layout_marginBottom="8dp" />
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="2">
+
+            <TextView android:text="A. Angry" style="@style/OpcionEstilo"/>
+            <TextView android:text="B. Excited" style="@style/OpcionEstilo"/>
+            <TextView android:text="C. Tired" style="@style/OpcionEstilo"/>
+            <TextView android:text="D. Bored" style="@style/OpcionEstilo"/>
+        </GridLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\nThe boy was so eager to open his birthday gift that he didn’t even wait for his parents.\nThe word “eager” most likely means:"
+            android:textSize="14sp"
+            android:layout_marginTop="16dp" />
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="2"
+            android:layout_marginTop="4dp">
+
+            <TextView android:text="A. finish" style="@style/OpcionEstilo"/>
+            <TextView android:text="B. have finished" style="@style/OpcionEstilo"/>
+            <TextView android:text="C. had finished" style="@style/OpcionEstilo"/>
+            <TextView android:text="D. Bored" style="@style/OpcionEstilo"/>
+        </GridLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\n“Tom usually walks to school, but today it is raining, so his mother is driving him.”\nWhy is Tom’s mother driving him today?"
+            android:textSize="14sp"
+            android:layout_marginTop="16dp" />
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="2"
+            android:layout_marginTop="4dp">
+
+            <TextView android:text="A. Because he is late" style="@style/OpcionEstilo"/>
+            <TextView android:text="B. Because she wants to" style="@style/OpcionEstilo"/>
+            <TextView android:text="C. Because it is raining" style="@style/OpcionEstilo"/>
+            <TextView android:text="D. Because Tom is sick" style="@style/OpcionEstilo"/>
+        </GridLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\n“Sandra bought a coat and boots yesterday. Today, she took her umbrella to school.”\nWhat is probably the weather like?"
+            android:textSize="14sp"
+            android:layout_marginTop="16dp" />
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="2"
+            android:layout_marginTop="4dp">
+
+            <TextView android:text="A. Because he is late" style="@style/OpcionEstilo"/>
+            <TextView android:text="B. Because she wants to" style="@style/OpcionEstilo"/>
+            <TextView android:text="C. Because it is raining" style="@style/OpcionEstilo"/>
+            <TextView android:text="D. Because Tom is sick" style="@style/OpcionEstilo"/>
+        </GridLayout>
+
+    </LinearLayout>
+</ScrollView>

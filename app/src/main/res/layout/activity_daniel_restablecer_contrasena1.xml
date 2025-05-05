@@ -16,7 +16,7 @@
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="200dp"
-        android:src="@drawable/icono_recuperar_contrasena_daniel" />
+        android:src="@drawable/icono_restablecer_contrasena" />
 
     <TextView
         android:layout_width="match_parent"
