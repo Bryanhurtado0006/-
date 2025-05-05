@@ -5,11 +5,9 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.graphics.Insets;
-import androidx.core.view.ViewCompat;
-import androidx.core.view.WindowInsetsCompat;
+
+import com.example.myapplicationics.bibliotecaV.MainActivity3victor;
 
 public class MainActivity extends AppCompatActivity {
 Button btn_Material;
@@ -26,7 +24,7 @@ Button btn_Registro;
         btn_Material.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent irmaterial=new Intent(MainActivity.this,MainActivity3victor.class);
+                Intent irmaterial=new Intent(MainActivity.this, MainActivity3victor.class);
                 startActivity(irmaterial);
                 
             }

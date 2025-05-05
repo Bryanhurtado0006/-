@@ -28,10 +28,10 @@
 
     <Button
         android:layout_width="300dp"
-        android:id="@+id/btnSimulacro_Estadistica"
+        android:id="@+id/btnSimulacros"
         android:layout_height="100dp"
         android:layout_gravity="center"
         android:layout_marginTop="30dp"
-        android:text="Simulacro_Estadistica"
+        android:text="Simulacros"
         android:textSize="24dp"/>
 </LinearLayout>
