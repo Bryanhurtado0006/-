@@ -23,9 +23,10 @@
         android:contentDescription="Imagen de ejemplo" />
 
     <Button
-        android:id="@+id/btnRestablecer"
-        android:layout_width="wrap_content"
+        android:id="@+id/btnInicoSecion"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Restablecer contraseña" />
+        android:text="INICIAR SESIÓN"
+        android:layout_marginTop="30dp" />
 
 </LinearLayout>
