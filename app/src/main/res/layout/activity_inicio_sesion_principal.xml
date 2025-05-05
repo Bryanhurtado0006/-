@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
@@ -22,8 +23,8 @@
             android:layout_width="wrap_content"
             android:layout_height="190dp"
             android:layout_marginBottom="30dp"
-            android:adjustViewBounds="true"
             android:layout_marginTop="60dp"
+            android:adjustViewBounds="true"
             android:scaleType="fitCenter"
             android:src="@drawable/icono_registro_daniel" />
 
@@ -65,12 +66,11 @@
             android:textColor="@android:color/holo_blue_dark" />
 
         <Button
-            android:id="@+id/btnInicioSesion_Daniel"
+            android:id="@+id/btnIrInicio"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:minHeight="48dp"
-            android:text="INICIAR SESIÓN" />
+            android:text="INICIAR SESION"
+            android:layout_marginTop="20dp" />
 
     </LinearLayout>
 </ScrollView>
