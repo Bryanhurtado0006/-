@@ -5,6 +5,6 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Ruleta_LUIS">
+    tools:context=".Gamificacion_LUIS.Ruleta_LUIS">
 
 </androidx.constraintlayout.widget.ConstraintLayout>

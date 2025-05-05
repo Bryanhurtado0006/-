@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Raking_Luis"
+    tools:context=".Gamificacion_LUIS.Raking_Luis"
     android:background="#FFFFFF"
     android:padding="16dp">
 

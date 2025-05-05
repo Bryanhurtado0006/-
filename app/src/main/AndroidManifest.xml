@@ -12,7 +12,7 @@
         android:theme="@style/Theme.MyApplicationICS"
         tools:targetApi="31">
         <activity
-            android:name=".Ruleta_LUIS"
+            android:name=".Gamificacion_LUIS.Ruleta_LUIS"
             android:exported="false" />
         <activity
             android:name=".Stiven_Icfes3"
@@ -60,7 +60,7 @@
             android:name=".Estadistica_Lectura"
             android:exported="false" />
         <activity
-            android:name=".Luis_Retos"
+            android:name=".Gamificacion_LUIS.Luis_Retos"
             android:exported="false" />
         <activity
             android:name=".Examen_Completado"
