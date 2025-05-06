@@ -163,9 +163,9 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Orientación  vocacional"
-                    android:textStyle="bold"
+                    android:textAlignment="center"
                     android:textColor="@color/black"
-                    android:textAlignment="center"/>
+                    android:textStyle="bold" />
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
