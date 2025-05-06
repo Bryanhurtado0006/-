@@ -6,18 +6,23 @@
 
         <item
             android:id="@+id/Hoome"
+            android:title="@string/menu_inicio"
             android:icon="@drawable/outline_home_24"/>
         <item
             android:id="@+id/progresss"
+            android:title="@string/menu_progreso"
             android:icon="@drawable/progressss"/>
         <item
             android:id="@+id/Bibliotec"
+            android:title="@string/menu_Biblioteca"
             android:icon="@drawable/bibliotec" />
         <item
             android:id="@+id/profileee"
+            android:title="@string/menu_Perfil"
             android:icon="@drawable/profileeee"/>
         <item
             android:id="@+id/CerrarS"
+            android:title="@string/menu_CerrarS"
             android:icon="@drawable/baseline_logout_24"/>
 
 

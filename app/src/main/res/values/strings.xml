@@ -4,6 +4,8 @@
     <string name="navigation_drawer_close">Cerrar menú</string>
 
     <string name="menu_inicio">Inicio</string>
+
+
     <string name="nav_menu_menu">Menu</string>
 
 
@@ -12,8 +14,8 @@
     <string name="menu_Perfil">Perfil </string>
     <string name="menu_CerrarS">Cerrar Sesion </string>
     <string name="profile_picture">Foto de perfil</string>
-
-
+    <string name="name">Coding Classes</string>
+    <string name="name_titulo">Crack the code, Change the world.</string>
 
 
 </resources>
