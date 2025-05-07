@@ -1,25 +1,106 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".dashboarBB.OrientacionVocacionalBB">
+    android:background="@color/background_color"
+    android:padding="@dimen/default_padding"
+    tools:context=".dashboarBB.OrientacionV.OrientacionVocacionalBB">
 
+    <!-- Título principal -->
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/titleText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="156dp"
-        tools:layout_editor_absoluteY="25dp" />
+        android:text="Orientación vocacional"
+        android:textColor="@color/primary_text"
+        android:textSize="@dimen/title_text_size"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="@dimen/title_margin_top" />
 
+    <!-- Pregunta destacada -->
     <TextView
-        android:id="@+id/textView3"
-        android:layout_width="wrap_content"
+        android:id="@+id/mainQuestionText"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="68dp"
-        tools:layout_editor_absoluteY="100dp" />
+        android:text="¿No sabes qué\ncarrera estudiar?"
+        android:textColor="@color/primary_text"
+        android:textSize="@dimen/question_text_size"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:lineSpacingExtra="@dimen/line_spacing"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/titleText"
+        android:layout_marginTop="@dimen/question_margin_top" />
+
+    <!-- Mensaje motivacional -->
+    <TextView
+        android:id="@+id/motivationalText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="¡Este test te puede\nayudar!"
+        android:textColor="@color/secondary_text"
+        android:textSize="@dimen/motivational_text_size"
+        android:gravity="center"
+        android:lineSpacingExtra="@dimen/line_spacing"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/mainQuestionText"
+        android:layout_marginTop="@dimen/small_margin" />
+
+    <!-- Descripción del test -->
+    <TextView
+        android:id="@+id/descriptionText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Este test vocacional está\ndiseñado especialmente para\nestudiantes de grado once que\nestán próximos a tomar una de las\ndecisiones más importantes de su\nvida: elegir una carrera\nprofesional."
+        android:textColor="@color/primary_text"
+        android:textSize="@dimen/body_text_size"
+        android:gravity="center"
+        android:lineSpacingExtra="@dimen/line_spacing"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/motivationalText"
+        android:layout_marginTop="@dimen/large_margin" />
+
+    <!-- Recordatorio importante -->
+    <TextView
+        android:id="@+id/reminderText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="¡Recuerda!\nNo hay respuestas\ncorrectas o incorrectas.\nLo importante\nes que seas honesto\ncontigo mismo."
+        android:textColor="@color/reminder_text"
+        android:textSize="@dimen/reminder_text_size"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:lineSpacingExtra="@dimen/line_spacing"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/descriptionText"
+        android:layout_marginTop="@dimen/large_margin" />
+
+    <!-- Botón de acción -->
+    <Button
+        android:id="@+id/startButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Vamos con el test"
+        style="@style/PrimaryButton"
+        android:drawableEnd="@drawable/arrowforward"
+        android:drawablePadding="@dimen/icon_padding"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/reminderText"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginTop="@dimen/button_margin_top"
+        android:layout_marginBottom="@dimen/button_margin_bottom"
+        android:layout_marginHorizontal="@dimen/side_margin" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+        <!-- Espaciado -->
+        <dimen name="default_padding">16dp</dimen>
+        <dimen name="side_margin">24dp</dimen>
+        <dimen name="title_margin_top">24dp</dimen>
+        <dimen name="question_margin_top">32dp</dimen>
+        <dimen name="small_margin">8dp</dimen>
+        <dimen name="large_margin">32dp</dimen>
+        <dimen name="button_margin_top">40dp</dimen>
+        <dimen name="button_margin_bottom">24dp</dimen>
+        <dimen name="icon_padding">8dp</dimen>
+        <dimen name="line_spacing">4dp</dimen>
+
+        <!-- Tamaños de texto -->
+        <dimen name="title_text_size">22sp</dimen>
+        <dimen name="question_text_size">20sp</dimen>
+        <dimen name="motivational_text_size">18sp</dimen>
+        <dimen name="body_text_size">16sp</dimen>
+        <dimen name="reminder_text_size">17sp</dimen>
+
+    <!-- Espaciado vocaion -->
+    <dimen name="default_paddingg">16dp</dimen>
+    <dimen name="small_marginn">8dp</dimen>
+    <dimen name="medium_margin">16dp</dimen>
+    <dimen name="large_marginn">24dp</dimen>
+    <dimen name="progress_height">4dp</dimen>
+    <dimen name="card_elevation">1dp</dimen>
+    <dimen name="card_stroke_width">0.5dp</dimen>
+
+    <!-- Text sizes -->
+    <dimen name="title_text_size1">20sp</dimen>
+    <dimen name="category_text_size5">16sp</dimen>
+    <dimen name="question_text_size7">15sp</dimen>
+
+
+
+</resources>

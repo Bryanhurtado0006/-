@@ -12,6 +12,9 @@
         android:theme="@style/Theme.MyApplicationICS"
         tools:targetApi="31">
         <activity
+            android:name=".dashboarBB.OrientacionV.TestVocacion_1"
+            android:exported="false" />
+        <activity
             android:name=".Gamificacion_LUIS.Ruleta_LUIS"
             android:exported="false" />
         <activity

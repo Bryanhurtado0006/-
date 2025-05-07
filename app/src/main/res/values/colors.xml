@@ -5,4 +5,17 @@
     <color name="colorx">#8069BF</color>
     <color name="colorxx">#6BB9FF</color>
     <color name="colorxxx">#722323</color>
+    <color name="background_color">#FFF5F5F5</color>
+    <color name="primary_text">#FF212121</color>
+    <color name="secondary_text">#FF757575</color>
+    <color name="reminder_text">#FF9800</color>
+    <color name="colorPrimary">#FF3F51B5</color>
+
+
+    <color name="background_test">#FAFAFA</color>
+    <color name="primary_textt">#212121</color>
+    <color name="secondary_textt">#757575</color>
+    <color name="colorPrimaryy">#3F51B5</color>
+    <color name="progress_track">#E0E0E0</color>
+    <color name="card_stroke">#BDBDBD</color>
 </resources>
