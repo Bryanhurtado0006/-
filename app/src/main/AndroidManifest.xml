@@ -83,6 +83,17 @@
         <activity
             android:name=".ui.simulacroANA.Simulacro_Lectura_1"
             android:exported="false" />
+
+        <!-- ✅ ACTIVIDAD AÑADIDA -->
+        <activity
+            android:name=".iu.login.Daniel_Inicio_Sesion_General"
+            android:exported="false" />
+        <activity
+            android:name=".iu.login.Inicio_Sesion_Principal"
+            android:exported="false" />
+
+
+
     </application>
 
 </manifest>

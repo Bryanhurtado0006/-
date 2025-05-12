@@ -19,7 +19,7 @@ public class Daniel_Inicio_Sesion_General extends AppCompatActivity {
         setContentView(binding.getRoot());
 
         binding.btnInicoSecion.setOnClickListener(v -> {
-            Intent intent = new Intent(this, Daniel_restablecer_contrasena_1.class);
+            Intent intent = new Intent(this, Inicio_Sesion_Principal.class);
             startActivity(intent);
         });
     }

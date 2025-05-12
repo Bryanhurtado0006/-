@@ -2,47 +2,26 @@ package com.example.myapplicationics;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
-import android.widget.Button;
-
 import androidx.appcompat.app.AppCompatActivity;
-
-import com.example.myapplicationics.bibliotecaV.MainActivity3victor;
+import com.example.myapplicationics.databinding.ActivityMainBinding;
+import com.example.myapplicationics.iu.login.Daniel_Inicio_Sesion_General;
 
 public class MainActivity extends AppCompatActivity {
-Button btn_Material;
-Button btn_Registro;
-  @Override
+
+    private ActivityMainBinding binding;
+
+    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        
-        setContentView(R.layout.activity_main);
-        
-        btn_Material=findViewById(R.id.btn_Material);
-        
-        
-        btn_Material.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent irmaterial=new Intent(MainActivity.this, MainActivity3victor.class);
-                startActivity(irmaterial);
-                
-            }
+
+        // Inicializa el ViewBinding
+        binding = ActivityMainBinding.inflate(getLayoutInflater());
+        setContentView(binding.getRoot());
+
+        // Navega a la pantalla de inicio de sesión
+        binding.btnIrInicioSesion.setOnClickListener(v -> {
+            Intent intent = new Intent(this, Daniel_Inicio_Sesion_General.class);
+            startActivity(intent);
         });
-
-
-        btn_Registro=findViewById(R.id.btn_Registro);
-
-
-        btn_Registro.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent irRegistro=new Intent(MainActivity.this,RegistroLenny.class);
-                startActivity(irRegistro);
-
-            }
-        });
-
-        
     }
 }
