@@ -15,7 +15,7 @@
             android:layout_height="wrap_content">
 
             <TextView
-                android:text="Sugerencias para Mejorar"
+                android:text="Sugerenciass"
                 android:textSize="24sp"
                 android:textStyle="bold"
                 android:layout_marginTop="55dp"

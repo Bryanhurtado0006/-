@@ -24,5 +24,7 @@ public class Lenny_Sugerencias extends AppCompatActivity {
             startActivity(intent);
         });
 
+
+
     }
 }
