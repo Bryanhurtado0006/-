@@ -18,4 +18,12 @@
     <color name="colorPrimaryy">#3F51B5</color>
     <color name="progress_track">#E0E0E0</color>
     <color name="card_stroke">#BDBDBD</color>
-</resources>
+
+        <color name="verde_lima">#77FFD600</color>
+        <color name="cian_brillante">#8B308553</color>
+        <color name="fucsia_intenso">#78FF6D00</color>
+        <color name="amarillo_neon">#000000</color>
+    <color name="cian_brillantee">#CB64BC88</color>
+
+    </resources>
+
