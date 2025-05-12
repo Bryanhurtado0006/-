@@ -7,7 +7,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#90A4AE"
-    tools:context=".Gamificacion_LUIS.Luis_Retos">
+    tools:context=".Gamificacion_LUIS.Luis_Retoss">
 
     <LinearLayout
         android:layout_width="match_parent"

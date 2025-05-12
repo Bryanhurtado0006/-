@@ -90,7 +90,7 @@
             android:name=".Estadistica_Lectura"
             android:exported="false" />
         <activity
-            android:name=".Gamificacion_LUIS.Luis_Retos"
+            android:name=".Gamificacion_LUIS.Luis_Retoss"
             android:exported="false" />
         <activity
             android:name=".Examen_Completado"

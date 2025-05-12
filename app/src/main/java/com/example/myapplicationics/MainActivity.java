@@ -18,10 +18,6 @@ public class MainActivity extends AppCompatActivity {
         binding = ActivityMainBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 
-        // Navega a la pantalla de inicio de sesión
-        binding.btnIrInicioSesion.setOnClickListener(v -> {
-            Intent intent = new Intent(this, Daniel_Inicio_Sesion_General.class);
-            startActivity(intent);
-        });
+
     }
 }

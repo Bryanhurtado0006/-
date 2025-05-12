@@ -7,7 +7,7 @@ import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import com.example.myapplicationics.R  // Asegúrate de importar tu R correctamente
 
-class Luis_Retos : AppCompatActivity() {
+class Luis_Retoss : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
