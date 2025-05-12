@@ -8,7 +8,7 @@ import com.example.myapplicationics.databinding.ActivityOrientacionVocacionalBbB
 
 public class OrientacionVocacionalBB extends AppCompatActivity {
 
-    // Declarar el binding
+
     private ActivityOrientacionVocacionalBbBinding binding;
 
     @Override
