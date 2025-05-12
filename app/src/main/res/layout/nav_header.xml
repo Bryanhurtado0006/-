@@ -7,6 +7,16 @@
     android:orientation="vertical"
     android:padding="16dp">
 
+    <TextView
+        android:id="@+id/header_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Menú Principal"
+        android:textSize="20sp"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:gravity="center"/>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -19,22 +29,22 @@
             android:layout_width="50dp"
             android:layout_height="30dp"/>
 
-            <LinearLayout
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_gravity="center">
+
+            <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="vertical"
-                android:layout_gravity="center">
+                android:text="@string/name_titulo"
+                android:layout_marginTop="2dp"
+                android:textSize="11sp"
+                android:textColor="@color/colorxx"
+                android:textStyle="bold"/>
 
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:text="@string/name_titulo"
-                    android:layout_marginTop="2dp"
-                    android:textSize="11sp"
-                    android:textColor="@color/colorxx"
-                    android:textStyle="bold"/>
-
-            </LinearLayout>
+        </LinearLayout>
 
     </LinearLayout>
 
