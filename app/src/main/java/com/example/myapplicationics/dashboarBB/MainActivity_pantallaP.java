@@ -20,7 +20,7 @@ public class MainActivity_pantallaP extends AppCompatActivity {
         binding = ActivityMainPantallaPBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 
-        // Asignar el click listener al TextView
+
         binding.OrientacionV.setOnClickListener(v -> {
             Intent intent = new Intent(this, TestVocacion_1.class);
             startActivity(intent);
@@ -39,6 +39,6 @@ public class MainActivity_pantallaP extends AppCompatActivity {
     @Override
     protected void onDestroy() {
         super.onDestroy();
-        binding = null; //Liberar memoria del binding
+        binding = null;
     }
 }
