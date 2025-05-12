@@ -8,7 +8,7 @@
     android:orientation="vertical"
     android:background="#F0F8F8"
     android:padding="16dp"
-    tools:context="Lenny_Configuracion.Lenny_Cerrarsesion">
+    tools:context=".lenny_configuracion1.Lenny_Cerrarsesion">
 
 
         <LinearLayout

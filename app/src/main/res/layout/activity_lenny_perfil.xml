@@ -6,7 +6,7 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="Lenny_Configuracion.Lenny_Perfil">
+    tools:context=".lenny_configuracion1.Lenny_Perfil">
 
 
         <LinearLayout

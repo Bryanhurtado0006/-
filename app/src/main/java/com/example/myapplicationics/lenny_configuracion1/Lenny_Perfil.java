@@ -1,4 +1,4 @@
-package Lenny_Configuracion;
+package com.example.myapplicationics.lenny_configuracion1;
 
 import android.content.DialogInterface;
 import android.content.Intent;

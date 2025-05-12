@@ -8,7 +8,7 @@
     android:orientation="vertical"
     android:padding="20dp"
     android:background="#FFF3E0"
-    tools:context="Lenny_Configuracion.Lenny_Reporte">
+    tools:context=".lenny_configuracion1.Lenny_Reporte">
 
         <TextView
             android:text="Reporte de Resultados"

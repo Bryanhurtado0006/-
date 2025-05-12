@@ -8,7 +8,7 @@
     android:orientation="vertical"
     android:gravity="center_horizontal"
     android:padding="24dp"
-    tools:context="Lenny_Configuracion.Lenny_Verperfil">
+    tools:context=".lenny_configuracion1.Lenny_Verperfil">
 
         <ImageView
             android:id="@+id/profileImage"

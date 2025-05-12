@@ -12,22 +12,22 @@
         android:theme="@style/Theme.MyApplicationICS"
         tools:targetApi="31">
         <activity
-            android:name="Lenny_Configuracion.Lenny_Sugerencias"
+            android:name=".lenny_configuracion1.Lenny_Sugerencias"
             android:exported="false" />
         <activity
-            android:name="Lenny_Configuracion.Lenny_Reporte"
+            android:name=".lenny_configuracion1.Lenny_Reporte"
             android:exported="false" />
         <activity
-            android:name="Lenny_Configuracion.Lenny_Cerrarsesion"
+            android:name=".lenny_configuracion1.Lenny_Cerrarsesion"
             android:exported="false" />
         <activity
-            android:name="Lenny_Configuracion.Lenny_Editarperfil"
+            android:name=".lenny_configuracion1.Lenny_Editarperfil"
             android:exported="false" />
         <activity
-            android:name="Lenny_Configuracion.Lenny_Verperfil"
+            android:name=".lenny_configuracion1.Lenny_Verperfil"
             android:exported="false" />
         <activity
-            android:name="Lenny_Configuracion.Lenny_Perfil"
+            android:name=".lenny_configuracion1.Lenny_Perfil"
             android:exported="false" />
         <activity
             android:name=".dashboarBB.OrientacionV.TestVocacion_2"

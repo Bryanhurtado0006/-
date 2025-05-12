@@ -9,7 +9,7 @@
     android:gravity="center_horizontal"
     android:background="@android:color/white"
     android:padding="24dp"
-    tools:context="Lenny_Configuracion.Lenny_Editarperfil">
+    tools:context=".lenny_configuracion1.Lenny_Editarperfil">
 
         <ImageView
             android:id="@+id/profileImage"
