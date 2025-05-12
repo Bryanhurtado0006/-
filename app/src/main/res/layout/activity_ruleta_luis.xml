@@ -6,7 +6,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#EBDDC7"
+    android:background="#FFFBEA"
     tools:context=".Gamificacion_LUIS.Ruleta_LUIS">
 
     <!-- Título principal -->
@@ -15,25 +15,30 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="AVENTURA"
-        android:textSize="24sp"
+        android:textSize="28sp"
         android:textStyle="bold"
-        android:textColor="#000000"
+        android:textColor="#333333"
+        android:fontFamily="sans-serif-medium"
         android:layout_marginTop="36dp"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
-    <!-- Subtítulo -->
+    <!-- Subtítulo con fondo redondeado -->
     <TextView
         android:id="@+id/subtitulo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="RULETA"
-        android:background="#66BB6A"
+        android:background="@drawable/bg_rounded_green"
         android:textColor="#FFFFFF"
         android:textStyle="bold"
-        android:padding="8dp"
-        android:layout_marginTop="8dp"
+        android:textSize="20sp"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:layout_marginTop="12dp"
         app:layout_constraintTop_toBottomOf="@id/titulo"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
@@ -63,28 +68,37 @@
             android:src="@drawable/yo" />
     </FrameLayout>
 
-    <!-- Instrucciones -->
+    <!-- Instrucciones con fondo redondeado -->
     <TextView
         android:id="@+id/instrucciones"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Gira la ruleta para responder preguntas y ganar puntos"
-        android:padding="12dp"
-        android:background="#E6E29C"
+        android:textSize="16sp"
+        android:fontFamily="sans-serif"
         android:textColor="#000000"
+        android:padding="16dp"
+        android:background="@drawable/bg_rounded_yellow"
         android:layout_marginTop="24dp"
         app:layout_constraintTop_toBottomOf="@id/frameRuleta"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
-    <!-- Botón para girar -->
+    <!-- Botón con estilo moderno -->
     <Button
         android:id="@+id/btnGirar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="GIRAR"
-        android:backgroundTint="#B0BEC5"
+        android:textAllCaps="false"
+        android:textSize="18sp"
         android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/bg_button_grey"
+        android:paddingStart="24dp"
+        android:paddingEnd="24dp"
+        android:paddingTop="12dp"
+        android:paddingBottom="12dp"
         android:layout_marginTop="24dp"
         app:layout_constraintTop_toBottomOf="@id/instrucciones"
         app:layout_constraintStart_toStartOf="parent"
