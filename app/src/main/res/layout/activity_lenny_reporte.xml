@@ -11,7 +11,7 @@
     tools:context=".lenny_configuracion1.Lenny_Reporte">
 
         <TextView
-            android:text="Reporte de Resultados"
+            android:text="Reporte de Gamificación"
             android:textSize="24sp"
             android:textStyle="bold"
             android:layout_gravity="center"

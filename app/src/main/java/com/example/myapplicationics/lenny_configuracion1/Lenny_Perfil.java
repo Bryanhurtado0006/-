@@ -57,6 +57,11 @@ public class Lenny_Perfil extends AppCompatActivity {
             startActivity(intent);
         });
 
+        binding.btnAtras.setOnClickListener(view -> {
+            Intent intent = new Intent(Lenny_Perfil.this, Lenny_Perfil.class);
+            startActivity(intent);
+        });
+
 
     }
 }
