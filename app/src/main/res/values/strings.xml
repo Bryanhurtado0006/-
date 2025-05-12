@@ -1,9 +1,10 @@
 <resources>
-    <string name="app_name">Mi Aplicación</string>
+    <string name="app_name">IFCES</string>
     <string name="navigation_drawer_open">Abrir menú</string>
     <string name="navigation_drawer_close">Cerrar menú</string>
 
     <string name="menu_inicio">Inicio</string>
+    <string name="mundos_gaficados"> Mundos Gamificados </string>
 
 
     <string name="nav_menu_menu">Menu</string>
@@ -16,6 +17,8 @@
     <string name="profile_picture">Foto de perfil</string>
     <string name="name">Coding Classes</string>
     <string name="name_titulo">Crack the code, Change the world.</string>
+
+
 
 
 </resources>

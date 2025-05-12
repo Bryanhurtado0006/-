@@ -1,32 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    tools:showIn="navigation_view">
-    <group android:checkableBehavior="single">
-
-        <item
-            android:id="@+id/Hoome"
-            android:title="@string/menu_inicio"
-            android:icon="@drawable/outline_home_24"/>
-        <item
-            android:id="@+id/progresss"
-            android:title="@string/menu_progreso"
-            android:icon="@drawable/progressss"/>
-        <item
-            android:id="@+id/Bibliotec"
-            android:title="@string/menu_Biblioteca"
-            android:icon="@drawable/bibliotec" />
-        <item
-            android:id="@+id/profileee"
-            android:title="@string/menu_Perfil"
-            android:icon="@drawable/profileeee"/>
-        <item
-            android:id="@+id/CerrarS"
-            android:title="@string/menu_CerrarS"
-            android:icon="@drawable/baseline_logout_24"/>
-
-
-
-    </group>
-
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_home"
+        android:title="Inicio" />
+    <item
+        android:id="@+id/nav_profile"
+        android:title="Perfil" />
+    <item
+        android:id="@+id/nav_settings"
+        android:title="Configuraciones" />
+    <item
+        android:id="@+id/nav_notifications"
+        android:title="Notificaciones" />
+    <item
+        android:id="@+id/nav_help"
+        android:title="Ayuda" />
 </menu>
+

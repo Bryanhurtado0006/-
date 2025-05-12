@@ -22,7 +22,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:trackColor="@color/progress_track"
         app:trackThickness="@dimen/progress_height"
-        app:progressColor="@color/colorPrimaryy" />
+         />
 
     <!-- Título del test -->
     <TextView
@@ -46,7 +46,7 @@
         android:layout_height="0dp"
         android:fillViewport="true"
         android:layout_marginTop="@dimen/medium_margin"
-        app:layout_constraintBottom_toTopOf="@id/btnNext"
+        app:layout_constraintBottom_toTopOf="@id/btnNextVocaciion2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/tvTestTitle">
@@ -160,7 +160,7 @@
 
     <!-- Botón Siguiente -->
     <Button
-        android:id="@+id/btnNext"
+        android:id="@+id/btnNextVocaciion2"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:text="Siguiente"
