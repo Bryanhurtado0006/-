@@ -2,6 +2,7 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/main"
     android:layout_width="match_parent"
+    android:background="@drawable/fondo_aplicacion"
     android:layout_height="match_parent">
 
     <LinearLayout
