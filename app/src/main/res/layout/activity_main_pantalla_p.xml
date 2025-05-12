@@ -145,12 +145,17 @@
             android:layout_column="0">
 
             <LinearLayout
+
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="vertical"
                 android:gravity="center"
                 android:background="#E2D68F"
                 android:padding="16dp">
+
+
+
+
 
                 <ImageView
                     android:layout_width="110dp"
@@ -160,11 +165,13 @@
                     android:layout_marginBottom="8dp"/>
 
                 <TextView
-                    android:layout_width="wrap_content"
+                    android:layout_width="142dp"
+                    android:id="@+id/Orientacion_v"
                     android:layout_height="wrap_content"
-                    android:text="Orientación  vocacional"
+                    android:text="@string/orientacioon_v"
                     android:textAlignment="center"
                     android:textColor="@color/black"
+                    android:textSize="15dp"
                     android:textStyle="bold" />
             </LinearLayout>
         </androidx.cardview.widget.CardView>
