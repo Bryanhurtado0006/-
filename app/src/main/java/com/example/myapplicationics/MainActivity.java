@@ -16,10 +16,12 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
 
         binding = ActivityMainBinding.inflate(getLayoutInflater());
+
         setContentView(binding.getRoot());
 
         binding.btnlenny.setOnClickListener(view ->{
             Intent intent = new Intent(this, Lenny_Perfil.class);
+            startActivity(intent);
         });
 
 

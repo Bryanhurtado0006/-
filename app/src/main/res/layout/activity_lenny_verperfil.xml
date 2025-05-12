@@ -1,10 +1,70 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".configlenny.Lenny_Verperfil">
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@android:color/white"
+    android:padding="24dp"
+    tools:context=".lenny_configuracion1.Lenny_Verperfil">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+
+        <ImageView
+            android:id="@+id/profile"
+            android:layout_width="367dp"
+            android:layout_height="212dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="8dp"
+            android:background="#B3E5FC"
+            android:scaleType="centerCrop"
+            android:src="@drawable/perfillenny" />
+
+        <TextView
+            android:id="@+id/txtNombre"
+            android:layout_width="291dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/bg_redondeado"
+            android:text="Lenny Jazbleidy"
+            android:padding="12dp"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/txtUsuario"
+            android:layout_width="295dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/bg_redondeado"
+            android:text="Jazz224"
+            android:padding="12dp"
+            android:textColor="#101010"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/txtContrasena"
+            android:layout_width="293dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/bg_redondeado"
+            android:text="patitofeo14"
+            android:padding="12dp"
+            android:textColor="#070707"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/txtCorreo"
+            android:layout_width="289dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/bg_redondeado"
+            android:text="lennyjazz98@gmail.com"
+            android:padding="12dp"
+            android:textColor="#101010"
+            android:textSize="16sp" />
+
+
+    </LinearLayout>
