@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F0F8F8"
+    android:padding="16dp"
+    tools:context="Lenny_Configuracion.Lenny_Cerrarsesion">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#B3E5FC"
+            android:padding="50dp"
+            android:gravity="center"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="150dp">
+
+            <ImageView
+                android:id="@+id/userp"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:scaleType="center"
+                android:src="@drawable/user" />
+
+            <TextView
+                android:id="@+id/userName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bienvenidos a nuestra App, aprende y diviertete con nosotros"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginTop="25dp" />
+
+            <Button
+                android:id="@+id/btnVerPerfil"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Siguiente"
+                android:textAllCaps="false"
+                android:layout_marginTop="20dp"
+                android:backgroundTint="@color/colorxx"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+

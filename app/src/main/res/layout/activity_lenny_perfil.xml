@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="Lenny_Configuracion.Lenny_Perfil">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#B3E5FC"
+            android:padding="16dp"
+            android:gravity="center"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="40dp">
+
+            <ImageView
+                android:id="@+id/profileImage"
+                android:layout_width="149dp"
+                android:layout_marginTop="25dp"
+
+                android:layout_height="140dp"
+                android:scaleType="center"
+                android:src="@drawable/perfillenny" />
+
+            <TextView
+                android:id="@+id/userName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lenny"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginTop="8dp" />
+
+            <Button
+                android:id="@+id/btnVerPerfil"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="VER PERFIL"
+                android:textAllCaps="false"
+                android:layout_marginTop="8dp"
+                android:backgroundTint="@color/colorxx"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="8dp">
+            <ImageView android:layout_width="24dp" android:layout_height="24dp"
+                android:src="@drawable/user" />
+            <TextView
+                android:id="@+id/perfil"
+                android:text="Editar perfil"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="8dp">
+            <ImageView android:layout_width="24dp" android:layout_height="24dp"
+                android:src="@drawable/eliminarlenny" />
+            <TextView
+                android:id="@+id/CerrarSesion"
+                android:text="Cerrar sesión"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/black"
+            android:layout_marginVertical="16dp" />
+
+
+        <TextView
+            android:text="Soporte"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="8dp"
+            android:textSize="16sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="8dp">
+
+            <ImageView
+                android:layout_width="28dp"
+                android:layout_height="23dp"
+                android:src="@drawable/confinglenny" />
+            <TextView
+                android:id="@+id/Sugerencia"
+                android:text="Sugerencias"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="8dp">
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/reporte" />
+            <TextView
+                android:id="@+id/Reporte"
+                android:text="Reportes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+    </LinearLayout>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@android:color/white"
+    android:padding="24dp"
+    tools:context="Lenny_Configuracion.Lenny_Editarperfil">
+
+        <ImageView
+            android:id="@+id/profileImage"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/perfillenny"
+            android:scaleType="centerCrop"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="8dp" />
+
+
+        <TextView
+            android:id="@+id/changePhoto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CAMBIAR FOTO"
+            android:textColor="#1976D2"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:layout_marginBottom="35dp" />
+
+
+        <TextView android:text="Nombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_marginTop="8dp" />
+
+        <EditText
+            android:id="@+id/etNombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_redondeado"
+            android:hint="Ingresa tu nombre"
+            android:padding="12dp"
+            android:textColor="#000000"
+            android:textColorHint="#888888"
+            android:textSize="16sp" />
+
+
+
+        <TextView android:text="Usuario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_marginTop="8dp" />
+
+        <EditText
+            android:id="@+id/etUsuario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nombre de usuario"
+            android:textSize="16dp"
+            android:background="@drawable/bg_redondeado"
+            android:textColorHint="#888888"
+            android:padding="12dp" />
+
+
+        <TextView android:text="Contraseña"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_marginTop="8dp" />
+
+        <EditText
+            android:id="@+id/etContrasena"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="********"
+            android:textSize="16dp"
+            android:background="@drawable/bg_redondeado"
+            android:textColorHint="#888888"
+            android:inputType="textPassword"
+            android:padding="12dp"
+            android:enabled="false" />
+
+
+        <TextView android:text="Correo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_marginTop="8dp" />
+
+        <EditText
+            android:id="@+id/etCorreo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="ejempl4@gmail.com"
+            android:inputType="textEmailAddress"
+            android:textSize="16dp"
+            android:background="@drawable/bg_redondeado"
+            android:textColorHint="#888888"
+            android:padding="12dp"
+            android:enabled="false" />
+    </LinearLayout>

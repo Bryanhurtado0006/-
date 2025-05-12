@@ -34,4 +34,13 @@
         android:layout_marginTop="30dp"
         android:text="Simulacros"
         android:textSize="24dp"/>
+
+    <Button
+        android:layout_width="300dp"
+        android:id="@+id/btnlenny"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:text="Lenyy"
+        android:textSize="24dp"/>
 </LinearLayout>
