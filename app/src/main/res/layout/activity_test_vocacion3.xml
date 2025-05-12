@@ -8,15 +8,15 @@
     android:layout_height="match_parent"
     android:background="@color/background_test"
     android:padding="@dimen/default_paddingg"
-    tools:context=".dashboarBB.OrientacionV.TestVocacion_1">
+    tools:context=".dashboarBB.OrientacionV.TestVocacion_3">
 
-    <!-- Progress Bar -->
+    <!-- Progress Bar (75% completado) -->
     <com.google.android.material.progressindicator.LinearProgressIndicator
         android:id="@+id/progressBar"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:indeterminate="false"
-        android:progress="25"
+        android:progress="75"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -46,7 +46,7 @@
         android:layout_height="0dp"
         android:fillViewport="true"
         android:layout_marginTop="@dimen/medium_margin"
-        app:layout_constraintBottom_toTopOf="@id/btnNext"
+        app:layout_constraintBottom_toTopOf="@id/btnNextVocaciion3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/tvTestTitle">
@@ -61,18 +61,18 @@
                 android:id="@+id/tvCategory"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="1. Intereses Personales"
+                android:text="3. Valores y Motivaciones"
                 android:textColor="@color/secondary_textt"
                 android:textSize="@dimen/category_text_size5"
                 android:textStyle="bold"
                 android:layout_marginBottom="@dimen/small_marginn"/>
 
-            <!-- Texto de la pregunta -->
+            <!-- Pregunta 3.1 -->
             <TextView
                 android:id="@+id/tvQuestion"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="1.1 ¿Qué actividad disfrutas más?"
+                android:text="3.1 ¿Qué es más importante para ti en una carrera?"
                 android:textColor="@color/primary_textt"
                 android:textSize="@dimen/question_text_size7"
                 android:layout_marginBottom="@dimen/medium_margin"/>
@@ -96,7 +96,7 @@
                     <RadioButton
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Leer sobre temas nuevos"
+                        android:text="Estabilidad económica"
                         style="@style/TestOptionRadioButton"/>
                 </com.google.android.material.card.MaterialCardView>
 
@@ -110,7 +110,7 @@
                     <RadioButton
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Resolver acertijos o problemas matemáticos"
+                        android:text="Ayudar a los demás"
                         style="@style/TestOptionRadioButton"/>
                 </com.google.android.material.card.MaterialCardView>
 
@@ -124,7 +124,7 @@
                     <RadioButton
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Ayudar a otras personas"
+                        android:text="Ser creativo/a"
                         style="@style/TestOptionRadioButton"/>
                 </com.google.android.material.card.MaterialCardView>
 
@@ -138,7 +138,7 @@
                     <RadioButton
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Crear cosas (dibujar, escribir, diseñar)"
+                        android:text="Trabajar en lo que te gusta"
                         style="@style/TestOptionRadioButton"/>
                 </com.google.android.material.card.MaterialCardView>
 
@@ -151,7 +151,7 @@
                     <RadioButton
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Armar o reparar objetos"
+                        android:text="Poder investigar o innovar"
                         style="@style/TestOptionRadioButton"/>
                 </com.google.android.material.card.MaterialCardView>
             </RadioGroup>
@@ -160,14 +160,14 @@
 
     <!-- Botón Siguiente -->
     <Button
-        android:id="@+id/btnNext"
-        style="@style/PrimaryButton"
+        android:id="@+id/btnNextVocaciion3"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="@dimen/large_margin"
         android:text="Siguiente"
+        android:layout_marginTop="@dimen/medium_margin"
+        android:layout_marginBottom="@dimen/large_margin"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        style="@style/PrimaryButton"/>
 </androidx.constraintlayout.widget.ConstraintLayout>

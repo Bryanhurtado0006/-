@@ -18,7 +18,7 @@ public class TestVocacion_1 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        // Configuración del View Binding
+
         binding = ActivityTestVocacion1Binding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 

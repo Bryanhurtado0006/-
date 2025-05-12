@@ -10,7 +10,7 @@
 
 
 
-    <!-- Cabecera con degradado -->
+    <!-- Cabecera  -->
     <View
         android:id="@+id/top_view"
         android:layout_width="match_parent"
@@ -40,7 +40,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Bienvenido a ICFES-PF"
+            android:text="Bienvenido a ICFES-UP"
             android:textColor="@color/white"
             android:textSize="18sp"
             android:textStyle="bold"/>
@@ -79,11 +79,11 @@
                 android:padding="16dp">
 
                 <ImageView
-                    android:layout_width="110dp"
+                    android:layout_width="134dp"
                     android:layout_height="110dp"
-                    android:src="@drawable/imglibrobryan"
+                    android:layout_marginBottom="8dp"
                     android:contentDescription="Retos"
-                    android:layout_marginBottom="8dp"/>
+                    android:src="@drawable/imglibrobryan" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -154,19 +154,23 @@
                 android:padding="16dp">
 
 
-
-
-
                 <ImageView
-                    android:layout_width="110dp"
+                    android:layout_width="132dp"
+                    android:id="@+id/imgbryanlapiz"
                     android:layout_height="110dp"
-                    android:src="@drawable/imgbryanlapiz"
+                    android:layout_marginBottom="8dp"
+                    android:clickable="false"
+                    android:focusable="true"
+                    android:foreground="?selectableItemBackground"
                     android:contentDescription="Nutrición"
-                    android:layout_marginBottom="8dp"/>
+                    android:src="@drawable/imgbryanlapiz" />
 
                 <TextView
                     android:layout_width="142dp"
                     android:id="@+id/Orientacion_v"
+                    android:clickable="false"
+                    android:focusable="true"
+                    android:foreground="?selectableItemBackground"
                     android:layout_height="wrap_content"
                     android:text="@string/orientacioon_v"
                     android:textAlignment="center"
@@ -229,20 +233,21 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="vertical"
+                android:background="@color/red_gami"
                 android:gravity="center"
                 android:padding="16dp">
 
                 <ImageView
-                    android:layout_width="60dp"
-                    android:layout_height="60dp"
-
+                    android:layout_width="144dp"
+                    android:layout_height="108dp"
+                    android:layout_marginBottom="8dp"
                     android:contentDescription="Configuración"
-                    android:layout_marginBottom="8dp"/>
+                    android:src="@drawable/mundoss_gamii" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Configuración"
+                    android:text="@string/mundos_gaficados"
                     android:textStyle="bold"
                     android:textColor="@color/black"
                     android:textAlignment="center"/>
@@ -262,7 +267,7 @@
         app:itemIconTint="@color/black"
         app:itemTextColor="@color/black"
         app:headerLayout="@layout/nav_header"
-        app:menu="@menu/activity_main_drawer" />
+        app:menu="@menu/" />
 
 
 

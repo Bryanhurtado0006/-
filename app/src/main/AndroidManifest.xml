@@ -30,6 +30,12 @@
             android:name=".lenny_configuracion1.Lenny_Perfil"
             android:exported="false" />
         <activity
+            android:name=".dashboarBB.OrientacionV.TestVocacion_4"
+            android:exported="false" />
+        <activity
+            android:name=".dashboarBB.OrientacionV.TestVocacion_3"
+            android:exported="false" />
+        <activity
             android:name=".dashboarBB.OrientacionV.TestVocacion_2"
             android:exported="false" />
         <activity
