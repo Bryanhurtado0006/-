@@ -5,6 +5,7 @@ import android.os.Bundle;
 import androidx.appcompat.app.AppCompatActivity;
 import com.example.myapplicationics.databinding.ActivityMainBinding;
 import com.example.myapplicationics.iu.login.Daniel_Inicio_Sesion_General;
+import com.example.myapplicationics.lenny_configuracion1.Lenny_Perfil;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -14,9 +15,12 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        // Inicializa el ViewBinding
         binding = ActivityMainBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
+
+        binding.btnlenny.setOnClickListener(view ->{
+            Intent intent = new Intent(this, Lenny_Perfil.class);
+        });
 
 
     }
