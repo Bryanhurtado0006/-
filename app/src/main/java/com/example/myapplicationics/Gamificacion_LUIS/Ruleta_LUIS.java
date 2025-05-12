@@ -2,6 +2,7 @@ package com.example.myapplicationics.Gamificacion_LUIS;
 
 import android.os.Bundle;
 import android.widget.Button;
+import android.widget.Toast;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -13,7 +14,7 @@ import com.example.myapplicationics.R;
 
 public class Ruleta_LUIS extends AppCompatActivity {
 
-    private RuletaView ruletaView;
+    private Ruleta_View_Luis ruletaView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,6 +31,11 @@ public class Ruleta_LUIS extends AppCompatActivity {
         ruletaView = findViewById(R.id.ruletaView);
         Button btnGirar = findViewById(R.id.btnGirar);
 
-        btnGirar.setOnClickListener(v -> ruletaView.girarRuleta());
+        btnGirar.setOnClickListener(v -> {
+            ruletaView.girarRuleta(() -> {
+                String categoria = ruletaView.getCategoriaSeleccionada();
+                Toast.makeText(this, "¡Categoría seleccionada: " + categoria + "!", Toast.LENGTH_LONG).show();
+            });
+        });
     }
 }
