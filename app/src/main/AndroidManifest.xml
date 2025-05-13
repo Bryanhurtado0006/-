@@ -11,6 +11,19 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplicationICS"
         tools:targetApi="31">
+
+
+        <activity
+            android:name=".iu.login.SplashActivity"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
         <activity
             android:name=".lenny_configuracion1.Lenny_Sugerencias"
             android:exported="false" />
@@ -106,18 +119,13 @@
             android:exported="false" />
         <activity
             android:name=".ui.simulacroANA.Simulacro_Lectura_1"
-            android:exported="false" />
-
-        <!-- ✅ ACTIVIDAD AÑADIDA -->
+            android:exported="false" /> <!-- ✅ ACTIVIDAD AÑADIDA -->
         <activity
             android:name=".iu.login.Daniel_Inicio_Sesion_General"
             android:exported="false" />
         <activity
             android:name=".iu.login.Inicio_Sesion_Principal"
             android:exported="false" />
-
-
-
     </application>
 
 </manifest>
