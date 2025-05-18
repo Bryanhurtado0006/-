@@ -2,7 +2,7 @@ package com.example.myapplicationics.iu.login;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.os.Handler;
+import android.widget.Button;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -12,15 +12,13 @@ import androidx.core.view.WindowInsetsCompat;
 
 import com.example.myapplicationics.R;
 
-public class SplashActivity extends AppCompatActivity {
-
-    private static final int SPLASH_DURATION = 3000; // 3 segundos
+public class Sobre_Nosotros extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
-        setContentView(R.layout.activity_splash);
+        setContentView(R.layout.activity_sobre_nosotros);
 
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
@@ -28,10 +26,12 @@ public class SplashActivity extends AppCompatActivity {
             return insets;
         });
 
-        new Handler().postDelayed(() -> {
-            Intent intent = new Intent(SplashActivity.this, MainActivity.class);
+
+        Button btnRegresar = findViewById(R.id.btnRegresar);
+        btnRegresar.setOnClickListener(v -> {
+            Intent intent = new Intent(Sobre_Nosotros.this, MainActivity.class);
             startActivity(intent);
             finish();
-        }, SPLASH_DURATION);
+        });
     }
 }

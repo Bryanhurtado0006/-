@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center"
     android:orientation="vertical"
+    android:background="@drawable/fondo_aplicacion"
     android:padding="20dp">
 
     <TextView
@@ -24,7 +26,7 @@
         android:layout_marginTop="20dp"
         android:lineSpacingExtra="4dp"
         android:padding="8dp"
-        android:text="Muy bien, ahora puedes escribir una nueva contraseña para entrar a tu cuenta::"
+        android:text="Muy bien, ahora puedes escribir una nueva contraseña para entrar a tu cuenta:"
         android:textColor="#000000"
         android:textSize="16sp" />
 
@@ -35,14 +37,15 @@
         android:text="Ingrese su nueva contraseña:" />
 
     <EditText
+        android:id="@+id/edtNuevaContrasena"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Ingrese nueva contraseña:"
-        android:inputType="textEmailAddress"
+        android:hint="Ingrese nueva contraseña"
+        android:inputType="textPassword"
         android:minHeight="48dp" />
 
     <Button
-        android:id="@+id/btnRecuperar_Contraseña_3_Daniel"
+        android:id="@+id/btnRecuperarContrasena3Daniel"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"

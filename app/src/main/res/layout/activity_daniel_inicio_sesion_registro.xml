@@ -2,6 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/fondo_aplicacion"
     android:orientation="vertical"
     android:padding="20dp"
     android:gravity="center">
@@ -18,7 +19,7 @@
         android:id="@+id/imagenIcfes"
         android:layout_width="wrap_content"
         android:layout_height="220dp"
-        android:src="@drawable/robot_inicio_sesion_principal"
+        android:src="@drawable/inicio"
         android:layout_marginTop="60dp"
         android:contentDescription="Imagen de ejemplo" />
 

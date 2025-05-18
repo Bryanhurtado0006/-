@@ -1,11 +1,10 @@
-package com.example.myapplicationics;
+package com.example.myapplicationics.iu.login;
 
 import android.content.Intent;
 import android.os.Bundle;
 import androidx.appcompat.app.AppCompatActivity;
 import com.example.myapplicationics.databinding.ActivityMainBinding;
-import com.example.myapplicationics.iu.login.Daniel_Inicio_Sesion_General;
-import com.example.myapplicationics.lenny_configuracion1.Lenny_Perfil;
+
 
 public class MainActivity extends AppCompatActivity {
 
@@ -16,14 +15,11 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
 
         binding = ActivityMainBinding.inflate(getLayoutInflater());
-
         setContentView(binding.getRoot());
 
-        binding.btnlenny.setOnClickListener(view ->{
-            Intent intent = new Intent(this, Lenny_Perfil.class);
+        binding.tvSobreNosotros.setOnClickListener(v -> {
+            Intent intent = new Intent(MainActivity.this,com.example.myapplicationics.iu.login.Sobre_Nosotros.class);
             startActivity(intent);
         });
-
-
     }
 }
