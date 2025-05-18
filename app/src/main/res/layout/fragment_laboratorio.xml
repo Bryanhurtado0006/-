@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="#6AC0F0CD">
+
+<ImageView
+    android:id="@+id/imgMundoNatural"
+    android:layout_width="450dp"
+    android:layout_height="410dp"
+    android:src="@drawable/mundotres"
+    android:contentDescription="Mundo de Ciencias Naturales"
+    android:scaleType="fitCenter"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintBottom_toTopOf="@+id/btnEntrar_mundobiblio"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    android:layout_marginTop="48dp"
+    android:layout_marginBottom="24dp"/>
+
+
+<Button
+    android:id="@+id/btnEntrar_mundobiblio"
+    android:layout_width="118dp"
+    android:layout_height="65dp"
+    android:backgroundTint="#AACB2F"
+    android:text="Explorar"
+    android:textSize="18dp"
+    android:textColor="@color/black"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@id/imgMundoNatural" />
+</androidx.constraintlayout.widget.ConstraintLayout>

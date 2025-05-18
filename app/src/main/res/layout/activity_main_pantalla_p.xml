@@ -252,6 +252,7 @@
 
                     <ImageView
                         android:layout_width="144dp"
+                        android:id="@+id/ImgMundosgami"
                         android:layout_height="108dp"
                         android:layout_marginBottom="8dp"
                         android:contentDescription="Configuración"
@@ -260,6 +261,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:id="@+id/MundosGamificados"
                         android:text="@string/mundos_gaficados"
                         android:textStyle="bold"
                         android:textColor="@color/black"

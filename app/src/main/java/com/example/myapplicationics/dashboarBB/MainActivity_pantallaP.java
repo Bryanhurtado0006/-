@@ -14,6 +14,7 @@ import androidx.drawerlayout.widget.DrawerLayout;
 import com.example.myapplicationics.R;
 import com.example.myapplicationics.databinding.ActivityMainPantallaPBinding;
 import com.example.myapplicationics.dashboarBB.OrientacionV.TestVocacion_1;
+import com.example.myapplicationics.databinding.ActivityMundosCompetenciaBinding;
 import com.google.android.material.navigation.NavigationView;
 
 public class MainActivity_pantallaP extends AppCompatActivity {
@@ -66,20 +67,31 @@ public class MainActivity_pantallaP extends AppCompatActivity {
         setContentView(binding.getRoot());
 
 
-        binding.OrientacionV.setOnClickListener(v -> {
-            Intent intent = new Intent(this, TestVocacion_1.class);
-            startActivity(intent);
-
-
-            overridePendingTransition(R.anim.slide_in_right_testv, R.anim.slide_out_left_testv);
-        });
-
+        //DIRECION A ORIENTACION VOCACIONAL
 
         binding.imgbryanlapiz.setOnClickListener(v -> {
             Intent intent = new Intent(this, TestVocacion_1.class);
             startActivity(intent);
+            overridePendingTransition(R.anim.slide_in_right_testv, R.anim.slide_out_left_testv);
         });
+
+        // direccion a los mundos gamificados
+        binding.ImgMundosgami.setOnClickListener(v -> {
+            Intent intent = new Intent(this, ActivityMundosCompetenciaBinding.class);
+            startActivity(intent);
+            overridePendingTransition(R.anim.slide_in_right_testv, R.anim.slide_out_left_testv);
+        });
+
+
+
+
     }
+
+
+
+
+
+
 
     @Override
     protected void onDestroy() {
