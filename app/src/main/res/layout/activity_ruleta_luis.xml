@@ -1,18 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:fillViewport="true"
     android:background="#FFFBEA"
-    tools:context=".Gamificacion_LUIS.Ruleta_LUIS">
+    android:fillViewport="true">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/main"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="20dp">
+        android:padding="20dp"
+        tools:context=".Gamificacion_LUIS.Ruleta_LUIS">
 
         <!-- Título principal -->
         <TextView
@@ -29,7 +30,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent" />
 
-        <!-- Subtítulo con fondo redondeado -->
+        <!-- Subtítulo -->
         <TextView
             android:id="@+id/subtitulo"
             android:layout_width="wrap_content"
@@ -48,7 +49,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent" />
 
-        <!-- Contenedor de ruleta con flecha -->
+        <!-- Ruleta con flecha -->
         <FrameLayout
             android:id="@+id/frameRuleta"
             android:layout_width="300dp"
@@ -73,7 +74,7 @@
                 android:src="@drawable/yo" />
         </FrameLayout>
 
-        <!-- Instrucciones con fondo redondeado -->
+        <!-- Instrucciones -->
         <TextView
             android:id="@+id/instrucciones"
             android:layout_width="wrap_content"
@@ -89,7 +90,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent" />
 
-        <!-- Botón con estilo moderno -->
+        <!-- Botón GIRAR -->
         <Button
             android:id="@+id/btnGirar"
             android:layout_width="wrap_content"

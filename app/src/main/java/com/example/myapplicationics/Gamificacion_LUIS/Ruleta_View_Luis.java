@@ -73,7 +73,7 @@ public class Ruleta_View_Luis extends View {
 
         canvas.restore();
 
-        // Círculo central decorativo
+        // Centro "GO"
         paint.setColor(Color.WHITE);
         canvas.drawCircle(width / 2, height / 2, 60, paint);
         paint.setColor(Color.DKGRAY);
@@ -95,15 +95,15 @@ public class Ruleta_View_Luis extends View {
     public void girarRuleta(Runnable onFinish) {
         Random random = new Random();
 
-        int numCategorias = categorias.length;
-        int categoriaGanadora = random.nextInt(numCategorias);
-        float sweepAngle = 360f / numCategorias;
-        float anguloCategoria = categoriaGanadora * sweepAngle + sweepAngle / 2;
-
         int vueltas = random.nextInt(3) + 5;
-        float rotacionFinal = (vueltas * 360f) + (360f - anguloCategoria);
+        float sweepAngle = 360f / categorias.length;
+        float rotacionExtra = random.nextFloat() * 360f;
+        float rotacionFinal = vueltas * 360f + rotacionExtra;
 
-        ValueAnimator animator = ValueAnimator.ofFloat(currentAngle, currentAngle + rotacionFinal);
+        float inicio = currentAngle;
+        float destino = currentAngle + rotacionFinal;
+
+        ValueAnimator animator = ValueAnimator.ofFloat(inicio, destino);
         animator.setDuration(3000);
         animator.setInterpolator(new DecelerateInterpolator());
 
@@ -115,7 +115,10 @@ public class Ruleta_View_Luis extends View {
         animator.addListener(new AnimatorListenerAdapter() {
             @Override
             public void onAnimationEnd(Animator animation) {
-                categoriaSeleccionada = categorias[categoriaGanadora];
+                float anguloFinal = (currentAngle % 360 + 360) % 360;
+                int index = (int) ((360 - anguloFinal + sweepAngle / 2) % 360 / sweepAngle);
+                categoriaSeleccionada = categorias[index];
+
                 if (onFinish != null) onFinish.run();
             }
         });
