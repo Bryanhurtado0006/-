@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.myapplicationics.dashboarBB.MainActivity_pantallaP;
 import com.example.myapplicationics.databinding.ActivityExamenCompletado5Binding;
 
 public class Examen_Completado_5 extends AppCompatActivity {
@@ -19,6 +20,12 @@ public class Examen_Completado_5 extends AppCompatActivity {
         binding.btnFinalizar5.setOnClickListener(view -> {
             Intent intent = new Intent(Examen_Completado_5.this, Estadistica_Ingles.class);
             startActivity(intent);
+        });
+
+        binding.btnGoToMain5.setOnClickListener(view-> {
+            Intent intent = new Intent(this, MainActivity_pantallaP.class);
+            startActivity(intent);
+
         });
     }
 }

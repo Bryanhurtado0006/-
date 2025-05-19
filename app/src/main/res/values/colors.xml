@@ -28,5 +28,9 @@
         <color name="amarillo_neon">#000000</color>
     <color name="cian_brillantee">#CB64BC88</color>
 
+    //pantalla p
+    <color name="button_text">#FFFFFF</color>
+    <color name="button_background">#FF7043</color>
+
     </resources>
 

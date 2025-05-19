@@ -24,9 +24,9 @@ public class TestVocacion_3 extends AppCompatActivity {
 
             Intent intent = new Intent(this, TestVocacion_4.class);
 
-            // Opcional: agregar animación de transición
+
             startActivity(intent);
-            overridePendingTransition(R.anim.slide_in_right_testv, R.anim.slide_out_left_testv);
+            //overridePendingTransition(R.anim.slide_in_right_testv, R.anim.slide_out_left_testv);
         });
     }
 

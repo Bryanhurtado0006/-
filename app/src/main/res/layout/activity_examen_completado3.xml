@@ -58,5 +58,21 @@
             android:elevation="4dp" />
 
 
+        <Button
+            android:id="@+id/btnGoToMain3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="24dp"
+
+            android:text="Ir a página principal"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+
+            android:drawablePadding="8dp"
+            android:padding="16dp"
+            />
+
+
     </LinearLayout>
 </ScrollView>
+
