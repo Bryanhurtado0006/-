@@ -127,6 +127,10 @@
         <activity
             android:name=".iu.login.Inicio_Sesion_Principal"
             android:exported="false" />
+
+        <activity
+            android:name=".ui.simulacroANA.Inicio_Simulacros"
+            android:exported="false" />
     </application>
 
 </manifest>

@@ -66,6 +66,7 @@
             android:textSize="16sp"
             android:textColor="@android:color/holo_blue_dark" />
 
+
         <Button
             android:id="@+id/btnIrInicio"
             android:layout_width="match_parent"
