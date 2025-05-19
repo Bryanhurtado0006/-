@@ -13,28 +13,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:padding="30dp"
         android:gravity="center_vertical"
         android:background="#ffffff">
 
-        <ImageView
-            android:id="@+id/menu"
-            android:layout_width="28dp"
-            android:layout_height="28dp"
-            android:src="@drawable/menuu"
-            android:contentDescription="Menú" />
-
-        <View
-            android:layout_width="9dp"
-            android:layout_height="0dp"
-            android:layout_weight="1" />
-
-        <ImageView
-            android:id="@+id/notificacion"
-            android:layout_width="28dp"
-            android:layout_height="28dp"
-            android:src="@drawable/notificacionn"
-            android:contentDescription="Notificaciones" />
     </LinearLayout>
 
     <Button

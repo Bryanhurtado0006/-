@@ -1,4 +1,4 @@
-package com.example.myapplicationics;
+package com.example.myapplicationics.Gamificacion_LUIS;
 
 import android.os.Bundle;
 
@@ -8,13 +8,15 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-public class Stiven_Icfes extends AppCompatActivity {
+import com.example.myapplicationics.R;
+
+public class Luis_Gamificacion_interface extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
-        setContentView(R.layout.activity_stiven_icfes);
+        setContentView(R.layout.activity_luis_gamificacion_interface);
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);

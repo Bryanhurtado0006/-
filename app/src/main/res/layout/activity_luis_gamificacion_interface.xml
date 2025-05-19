@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_fondo"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:paddingTop="32dp">
+
+        <!-- Título -->
+
+        <!-- Imagen reloj -->
+        <TextView
+            android:id="@+id/titulo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_title"
+            android:elevation="4dp"
+            android:padding="12dp"
+            android:text="PREGUNTOSO"
+            android:textColor="#000000"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/reloj"
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:layout_marginTop="24dp"
+            android:src="@drawable/relojjj"
+            android:background="@drawable/bg_icon"
+            android:padding="20dp" />
+
+        <!-- Descripción -->
+        <TextView
+            android:id="@+id/descripcion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RESPONDE PREGUNTAS\nDE MANERA RAPIDA Y AGIL"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginTop="16dp"
+            android:textColor="#000000" />
+
+        <!-- Botón Modo Rápido -->
+        <Button
+            android:id="@+id/btn_modo_rapido"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MODO RAPIDO"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:backgroundTint="#BC9DDB"
+            android:layout_marginTop="24dp"
+            android:padding="12dp" />
+
+        <!-- Botón Modo Entrenamiento -->
+        <Button
+            android:id="@+id/btn_modo_entrenamiento"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MODO ENTRENAMIENTO"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:backgroundTint="#A587C5"
+            android:layout_marginTop="12dp"
+            android:padding="12dp" />
+
+        <!-- Botón Modo Supervivencia -->
+        <Button
+            android:id="@+id/btn_modo_supervivencia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MODO SUPERVIVENCIA"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:backgroundTint="#D77F77"
+            android:layout_marginTop="12dp"
+            android:padding="12dp" />
+
+    </LinearLayout>
+</ScrollView>
