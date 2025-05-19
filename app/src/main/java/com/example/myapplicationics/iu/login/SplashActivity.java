@@ -14,7 +14,7 @@ import com.example.myapplicationics.R;
 
 public class SplashActivity extends AppCompatActivity {
 
-    private static final int SPLASH_DURATION = 3000; // 3 segundos
+    private static final int SPLASH_DURATION = 2000; // 3 segundos
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
