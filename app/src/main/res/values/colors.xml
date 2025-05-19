@@ -11,6 +11,8 @@
     <color name="reminder_text">#FF9800</color>
     <color name="colorPrimary">#FF3F51B5</color>
     <color name="red_gami">#F70C0C</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="teal_200">#FF03DAC5</color>
 
 
     <color name="background_test">#FAFAFA</color>

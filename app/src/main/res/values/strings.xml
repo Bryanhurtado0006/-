@@ -18,6 +18,13 @@
     <string name="name">Coding Classes</string>
     <string name="name_titulo">Crack the code, Change the world.</string>
 
+    //string test vocacional
+    <string name="thank_you_title">¡Gracias por completar nuestro test!</string>
+    <string name="thank_you_message">Tu confianza es muy importante para nosotros. Los resultados te ayudarán a descubrir tu camino vocacional. ¡Éxito en tu futuro profesional!</string>
+    <string name="back_to_home">Volver al Inicio</string>
+    <string name="app_signature">TuApp</string>
+
+
 
 </resources>
 
