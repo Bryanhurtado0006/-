@@ -21,9 +21,9 @@ public class Mundos_Competencia extends AppCompatActivity {
         setContentView(binding.getRoot());
 
 
-        binding.btnComenzar.setOnClickListener(view -> {
+        /*binding.btnComenzar.setOnClickListener(view -> {
             Intent intent = new Intent(Mundos_Competencia.this, MundosActivity.class);
             startActivity(intent);
-        });
+        });*/
     }
 }

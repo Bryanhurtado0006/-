@@ -3,6 +3,8 @@ package com.example.myapplicationics.ui.simulacroANA;
 import android.content.Intent;
 import android.os.Bundle;
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.example.myapplicationics.dashboarBB.MainActivity_pantallaP;
 import com.example.myapplicationics.databinding.ActivityInicioSimulacrosBinding;
 
 public class Inicio_Simulacros extends AppCompatActivity {
@@ -13,8 +15,17 @@ public class Inicio_Simulacros extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
+
+
+
+
         binding = ActivityInicioSimulacrosBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
+
+        binding.btnSimulacros.setOnClickListener(v -> {
+            Intent intent = new Intent(this, MainActivity_pantallaP.class);
+            startActivity(intent);
+        });
 
         binding.lectura.setOnClickListener(view -> {
             Intent intent = new Intent(this, Simulacro_Lectura_1.class);

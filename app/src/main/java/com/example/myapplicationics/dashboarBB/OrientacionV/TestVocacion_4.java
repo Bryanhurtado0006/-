@@ -26,7 +26,7 @@ public class TestVocacion_4 extends AppCompatActivity {
             Intent intent = new Intent(this, MainActivity_pantallaP.class);
 
 
-            intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_NEW_TASK);
+            //intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_NEW_TASK);
 
             startActivity(intent);
             finish();
