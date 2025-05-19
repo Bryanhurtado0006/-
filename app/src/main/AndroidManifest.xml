@@ -122,7 +122,7 @@
             android:exported="false" />
         <activity
             android:name=".ui.simulacroANA.Simulacro_Lectura_1"
-            android:exported="false" /> <!-- ✅ ACTIVIDAD AÑADIDA -->
+            android:exported="false" />
 
         <activity
             android:name=".iu.login.Inicio_Sesion_Principal"
