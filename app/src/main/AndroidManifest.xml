@@ -12,6 +12,9 @@
         android:theme="@style/Theme.MyApplicationICS"
         tools:targetApi="31">
         <activity
+            android:name=".Gamificacion_LUIS.Luis_Apartado"
+            android:exported="false" />
+        <activity
             android:name=".Gamificacion_LUIS.Luis_Gamificacion_interface"
             android:exported="false" />
         <activity
