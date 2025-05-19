@@ -23,14 +23,15 @@ public class Ruleta_View_Luis extends View {
     };
 
     private int[] colores = {
-            Color.parseColor("#A5D6A7"), // Verde claro
-            Color.parseColor("#90CAF9"), // Azul claro
-            Color.parseColor("#CE93D8"), // Lila
-            Color.parseColor("#EF9A9A"), // Rojo claro
-            Color.parseColor("#FFF59D"), // Amarillo pastel
-            Color.parseColor("#FFCC80")  // Naranja claro
+            Color.parseColor("#A5D6A7"),
+            Color.parseColor("#90CAF9"),
+            Color.parseColor("#CE93D8"),
+            Color.parseColor("#EF9A9A"),
+            Color.parseColor("#FFF59D"),
+            Color.parseColor("#FFCC80")
     };
 
+    private int categoriaSeleccionadaIndex = -1;
     private String categoriaSeleccionada = "";
     private float currentAngle = 0f;
 
@@ -65,7 +66,12 @@ public class Ruleta_View_Luis extends View {
         canvas.rotate(currentAngle, width / 2, height / 2);
 
         for (int i = 0; i < categorias.length; i++) {
-            paint.setColor(colores[i]);
+            if (i == categoriaSeleccionadaIndex) {
+                paint.setColor(Color.RED); // Color especial para la categoría seleccionada
+            } else {
+                paint.setColor(colores[i]);
+            }
+
             canvas.drawArc(rectF, i * sweepAngle, sweepAngle, true, paint);
             canvas.drawArc(rectF, i * sweepAngle, sweepAngle, true, borderPaint);
             drawTextOnSector(canvas, categorias[i], i * sweepAngle + sweepAngle / 2, radius);
@@ -97,11 +103,14 @@ public class Ruleta_View_Luis extends View {
 
         int vueltas = random.nextInt(3) + 5;
         float sweepAngle = 360f / categorias.length;
-        float rotacionExtra = random.nextFloat() * 360f;
-        float rotacionFinal = vueltas * 360f + rotacionExtra;
+
+        int indexFinal = random.nextInt(categorias.length); // igualdad de probabilidades
+        float anguloObjetivo = 360 - (indexFinal * sweepAngle + sweepAngle / 2);
+
+        float rotacionExtra = vueltas * 360 + anguloObjetivo;
 
         float inicio = currentAngle;
-        float destino = currentAngle + rotacionFinal;
+        float destino = currentAngle + rotacionExtra;
 
         ValueAnimator animator = ValueAnimator.ofFloat(inicio, destino);
         animator.setDuration(3000);
@@ -115,10 +124,9 @@ public class Ruleta_View_Luis extends View {
         animator.addListener(new AnimatorListenerAdapter() {
             @Override
             public void onAnimationEnd(Animator animation) {
-                float anguloFinal = (currentAngle % 360 + 360) % 360;
-                int index = (int) ((360 - anguloFinal + sweepAngle / 2) % 360 / sweepAngle);
-                categoriaSeleccionada = categorias[index];
-
+                categoriaSeleccionadaIndex = indexFinal;
+                categoriaSeleccionada = categorias[categoriaSeleccionadaIndex];
+                invalidate(); // para repintar con color destacado
                 if (onFinish != null) onFinish.run();
             }
         });
