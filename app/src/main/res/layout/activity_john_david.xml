@@ -16,7 +16,7 @@
             android:layout_width="280dp"
             android:layout_height="100dp"
             android:layout_marginLeft="70dp"
-            android:layout_marginTop="130dp"
+            android:layout_marginTop="50dp"
             android:text="Diagnóstico Inicial de Aprendizaje"
             android:textSize="30dp" />
 
@@ -28,10 +28,11 @@
     <TextView
         android:id="@+id/textoMensaje"
         android:layout_width="wrap_content"
-        android:layout_height="75dp"
-        android:layout_centerInParent="true"
+        android:layout_height="45dp"
+        android:layout_marginTop="160dp"
+        android:layout_marginLeft="120dp"
         android:gravity="center"
-        android:text="!Hola Estudiante @estudiante_1¡"
+        android:text="!Hola Estudiante¡"
         android:textSize="20dp" />
 
     <LinearLayout
@@ -44,17 +45,22 @@
             android:layout_height="350dp"
             android:layout_gravity="center"
             android:layout_marginLeft="120dp"
-            android:layout_marginTop="180dp"
+            android:layout_marginTop="18dp"
             android:src="@drawable/mujer"/>
 
-        <Button
-            android:id="@+id/Siguiente"
-            android:layout_width="match_parent"
-            android:layout_height="60dp"
-            android:layout_marginTop="530dp"
-            android:text="Siguiente" />
-
     </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"/>
+        <Button
+            android:id="@+id/miBoton"
+            android:layout_width="160dp"
+            android:layout_height="60dp"
+            android:text="Siguiente"
+            android:layout_marginTop="560dp"
+            android:layout_marginLeft="120dp"/>
 
 
 
