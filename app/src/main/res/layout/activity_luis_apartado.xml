@@ -16,7 +16,7 @@
         <!-- Título superior -->
         <TextView
             android:id="@+id/titulo_apartado"
-            android:layout_width="wrap_content"
+            android:layout_width="300dp"
             android:layout_height="wrap_content"
             android:text="Gamificación\nsemanal"
             android:textSize="26sp"
@@ -33,65 +33,73 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Este apartado\nconsiste en aprender\nde forma intuitiva"
-            android:textSize="18sp"
+            android:textSize="25sp"
             android:textStyle="bold"
             android:gravity="center"
             android:layout_marginTop="24dp"
             android:textColor="#000000" />
 
         <!-- Botón Modo Preguntoso -->
-        <LinearLayout
+        <FrameLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
+            android:layout_height="140dp"
             android:layout_marginTop="24dp"
-            android:gravity="center"
             android:background="@drawable/bg_preguntoso"
+            android:layout_gravity="center"
             android:padding="16dp">
 
             <ImageView
-                android:layout_width="80dp"
-                android:layout_height="80dp"
-                android:src="@drawable/reloj_icon"
-                android:contentDescription="Ícono reloj" />
+                android:id="@+id/icono_reloj"
+                android:layout_width="180dp"
+                android:layout_height="120dp"
+                android:src="@drawable/relojjj"
+                android:layout_gravity="center"
+                android:contentDescription="Ícono Reloj" />
+
 
             <TextView
+                android:id="@+id/texto_preguntoso"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Modo\nPreguntoso"
-                android:textSize="18sp"
-                android:textStyle="bold"
                 android:textColor="#FFFFFF"
-                android:gravity="center"
-                android:layout_marginTop="8dp" />
-        </LinearLayout>
+                android:textSize="45sp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:gravity="center" />
+        </FrameLayout>
+
 
         <!-- Botón Modo Aventura -->
-        <LinearLayout
+        <FrameLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
+            android:layout_height="140dp"
             android:layout_marginTop="16dp"
-            android:gravity="center"
             android:background="@drawable/bg_aventura"
+            android:layout_gravity="center"
             android:padding="16dp">
 
             <ImageView
-                android:layout_width="80dp"
-                android:layout_height="80dp"
-                android:src="@drawable/ruleta_icon"
-                android:contentDescription="Ícono ruleta" />
+                android:id="@+id/icono_ruleta"
+                android:layout_width="180dp"
+                android:layout_height="120dp"
+                android:src="@drawable/rruleta"
+                android:layout_gravity="center"
+                android:contentDescription="Ícono Ruleta" />
+
 
             <TextView
+                android:id="@+id/texto_aventura"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Modo Aventura"
-                android:textSize="18sp"
-                android:textStyle="bold"
+                android:text="Modo\nAventura"
                 android:textColor="#FFFFFF"
-                android:gravity="center"
-                android:layout_marginTop="8dp" />
-        </LinearLayout>
+                android:textSize="45sp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:gravity="center" />
+        </FrameLayout>
+
 
     </LinearLayout>
 </ScrollView>
