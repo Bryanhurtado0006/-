@@ -1,12 +1,10 @@
-package com.example.myapplicationics;
+package com.example.myapplicationics.stiven_estadisticas;
 
 import android.os.Bundle;
 
-import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.graphics.Insets;
-import androidx.core.view.ViewCompat;
-import androidx.core.view.WindowInsetsCompat;
+
+import com.example.myapplicationics.R;
 
 public class Stiven_Icfes4 extends AppCompatActivity {
 

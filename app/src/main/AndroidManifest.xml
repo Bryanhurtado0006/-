@@ -64,13 +64,13 @@
             android:name=".Gamificacion_LUIS.Ruleta_LUIS"
             android:exported="false" />
         <activity
-            android:name=".Stiven_Icfes3"
+            android:name=".stiven_estadisticas.Stiven_Icfes3"
             android:exported="false" />
         <activity
-            android:name=".Stiven_Icfes2"
+            android:name=".stiven_estadisticas.Stiven_Icfes2"
             android:exported="false" />
         <activity
-            android:name=".Stiven_Icfes"
+            android:name=".stiven_estadisticas.Stiven_Icfes"
             android:exported="false" />
         <activity
             android:name=".dashboarBB.MainActivity_pantallaP"
