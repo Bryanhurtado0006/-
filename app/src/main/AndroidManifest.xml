@@ -131,6 +131,94 @@
         <activity
             android:name=".ui.simulacroANA.Inicio_Simulacros"
             android:exported="false" />
+        <activity
+            android:name=".ui.simulacroANA.Simulacro_Lectura_2"
+            android:exported="false" />
+        <activity
+            android:name=".ui.simulacroANA.Simulacro_Lectura_3"
+            android:exported="false" />
+        <activity
+            android:name=".ui.simulacroANA.Simulacro_Lectura_4"
+            android:exported="false" />
+        <activity
+            android:name=".ui.simulacroANA.Examen_Completado"
+            android:exported="false" />
+        <activity
+            android:name=".ui.simulacroANA.Estadistica_Lectura"
+            android:exported="false" />
+
+        <activity
+            android:name=".ui.simulacroANA.Simulacro_Matematicas_1"
+            android:exported="false" />
+        <activity
+            android:name=".ui.simulacroANA.Simulacro_Matematicas_2"
+            android:exported="false" />
+        <activity
+            android:name=".ui.simulacroANA.Simulacro_Matematicas_3"
+            android:exported="false" />
+        <activity
+            android:name=".ui.simulacroANA.Simulacro_Matematicas_4"
+            android:exported="false" />
+        <activity
+            android:name=".ui.simulacroANA.Estadistica_Matematicas"
+            android:exported="false" />
+        <activity
+            android:name=".ui.simulacroANA.Simulacro_Naturales_1"
+            android:exported="false" />
+        <activity
+            android:name=".ui.simulacroANA.Simulacro_Naturales_2"
+            android:exported="false" />
+        <activity
+            android:name=".ui.simulacroANA.Simulacro_Naturales_3"
+            android:exported="false" />
+        <activity
+            android:name=".ui.simulacroANA.Simulacro_Naturales_4"
+            android:exported="false" />
+        <activity
+            android:name=".ui.simulacroANA.Examen_Completado_3"
+            android:exported="false" />
+        <activity
+            android:name=".ui.simulacroANA.Estadistica_Naturales"
+            android:exported="false" />
+
+        <activity
+            android:name=".ui.simulacroANA.Simulacro_Sociales_1"
+            android:exported="false" />
+        <activity
+            android:name=".ui.simulacroANA.Simulacro_Sociales_2"
+            android:exported="false" />
+        <activity
+            android:name=".ui.simulacroANA.Simulacro_Sociales_3"
+            android:exported="false" />
+        <activity
+            android:name=".ui.simulacroANA.Simulacro_Sociales_4"
+            android:exported="false" />
+        <activity
+            android:name=".ui.simulacroANA.Examen_Completado_4"
+            android:exported="false" />
+        <activity
+            android:name=".ui.simulacroANA.Estadistica_Sociales"
+            android:exported="false" />
+        <activity
+            android:name=".ui.simulacroANA.Simulacro_Ingles_1"
+            android:exported="false" />
+        <activity
+            android:name=".ui.simulacroANA.Simulacro_Ingles_2"
+            android:exported="false" />
+        <activity
+            android:name=".ui.simulacroANA.Simulacro_Ingles_3"
+            android:exported="false" />
+        <activity
+            android:name=".ui.simulacroANA.Simulacro_Ingles_4"
+            android:exported="false" />
+        <activity
+            android:name=".ui.simulacroANA.Examen_Completado_5"
+            android:exported="false" />
+        <activity
+            android:name=".ui.simulacroANA.Estadistica_Ingles"
+            android:exported="false" />
+
+
     </application>
 
 </manifest>

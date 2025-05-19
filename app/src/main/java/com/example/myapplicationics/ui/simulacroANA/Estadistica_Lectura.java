@@ -1,19 +1,25 @@
 package com.example.myapplicationics.ui.simulacroANA;
 
+import android.content.Intent;
 import android.os.Bundle;
-
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.myapplicationics.R;
+import com.example.myapplicationics.databinding.ActivityEstadisticaLecturaBinding;
 
 public class Estadistica_Lectura extends AppCompatActivity {
+
+    private ActivityEstadisticaLecturaBinding binding;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        EdgeToEdge.enable(this);
-        setContentView(R.layout.activity_estadistica_lectura);
+        binding = ActivityEstadisticaLecturaBinding.inflate(getLayoutInflater());
+        setContentView(binding.getRoot());
 
+        binding.btnIrASimulacros.setOnClickListener(view -> {
+            Intent intent = new Intent(Estadistica_Lectura.this, Inicio_Simulacros.class);
+            startActivity(intent);
+        });
     }
 }
