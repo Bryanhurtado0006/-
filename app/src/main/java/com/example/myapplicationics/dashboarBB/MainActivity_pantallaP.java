@@ -11,6 +11,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import androidx.drawerlayout.widget.DrawerLayout;
 
+import com.example.myapplicationics.Gamificacion_LUIS.Ruleta_View_Luis;
 import com.example.myapplicationics.R;
 import com.example.myapplicationics.databinding.ActivityMainPantallaPBinding;
 import com.example.myapplicationics.dashboarBB.OrientacionV.TestVocacion_1;
@@ -78,6 +79,13 @@ public class MainActivity_pantallaP extends AppCompatActivity {
         // direccion a los mundos gamificados
         binding.ImgMundosgami.setOnClickListener(v -> {
             Intent intent = new Intent(this, ActivityMundosCompetenciaBinding.class);
+            startActivity(intent);
+            overridePendingTransition(R.anim.slide_in_right_testv, R.anim.slide_out_left_testv);
+        });
+
+        //direccion a las gamificaciones semanales
+        binding.ImgGamificacionsemanal.setOnClickListener(v -> {
+            Intent intent = new Intent(this, Ruleta_View_Luis.class);
             startActivity(intent);
             overridePendingTransition(R.anim.slide_in_right_testv, R.anim.slide_out_left_testv);
         });

@@ -92,6 +92,7 @@
                     android:padding="16dp">
 
                     <ImageView
+                        android:id="@+id/ImgGamificacionsemanal"
                         android:layout_width="134dp"
                         android:layout_height="110dp"
                         android:layout_marginBottom="8dp"
@@ -101,7 +102,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Retos Semanales"
+                        android:text="Gamificacion Semanal"
                         android:textStyle="bold"
                         android:textColor="@color/black"
                         android:textAlignment="center"/>
