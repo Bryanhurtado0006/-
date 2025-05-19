@@ -6,6 +6,7 @@ import android.os.Bundle;
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.myapplicationics.dashboarBB.MainActivity_pantallaP;
 import com.example.myapplicationics.databinding.ActivityEstadisticaInglesBinding;
 
 public class Estadistica_Ingles extends AppCompatActivity {
@@ -20,6 +21,11 @@ public class Estadistica_Ingles extends AppCompatActivity {
 
         binding.btnIrASimulacros.setOnClickListener(view -> {
             Intent intent = new Intent(Estadistica_Ingles.this, Inicio_Simulacros.class);
+            startActivity(intent);
+        });
+
+        binding.btnGoToMain5.setOnClickListener(view->{
+            Intent intent = new Intent(this, MainActivity_pantallaP.class);
             startActivity(intent);
         });
     }

@@ -3,7 +3,7 @@
     android:layout_height="match_parent"
     xmlns:tools="http://schemas.android.com/tools"
     android:background="#ffffff"
-    android:padding="50dp"
+    android:padding="40dp"
     android:fillViewport="true"
     tools:context="com.example.myapplicationics.ui.simulacroANA.Simulacro_Matematicas_1">
 
@@ -12,6 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
+        android:layout_marginTop="10dp"
         android:gravity="center_horizontal">
 
 

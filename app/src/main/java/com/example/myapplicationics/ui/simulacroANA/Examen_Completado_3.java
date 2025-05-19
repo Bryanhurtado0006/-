@@ -21,11 +21,5 @@ public class Examen_Completado_3 extends AppCompatActivity {
             Intent intent = new Intent(Examen_Completado_3.this, Estadistica_Naturales.class);
             startActivity(intent);
         });
-
-        binding.btnGoToMain3.setOnClickListener(view-> {
-            Intent intent = new Intent(this, MainActivity_pantallaP.class);
-            startActivity(intent);
-
-        });
     }
 }

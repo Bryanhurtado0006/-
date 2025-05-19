@@ -21,16 +21,8 @@ public class Examen_Completado_2 extends AppCompatActivity {
             Intent intent = new Intent(Examen_Completado_2.this, Estadistica_Matematicas.class);
             startActivity(intent);
         });
-
-
-        binding.btnGoToMain2.setOnClickListener(view->{
-            Intent intent = new Intent(this, MainActivity_pantallaP.class);
-            startActivity(intent);
-        });
-
-
-
     }
+
 
 
 
