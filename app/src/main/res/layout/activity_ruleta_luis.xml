@@ -5,8 +5,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFFBEA"
-    android:fillViewport="true">
+    android:fillViewport="true"
+    android:background="#FFFBEA">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/main"
@@ -15,7 +15,6 @@
         android:padding="20dp"
         tools:context=".Gamificacion_LUIS.Ruleta_LUIS">
 
-        <!-- Título principal -->
         <TextView
             android:id="@+id/titulo"
             android:layout_width="wrap_content"
@@ -23,92 +22,67 @@
             android:text="AVENTURA"
             android:textSize="28sp"
             android:textStyle="bold"
-            android:textColor="#333333"
-            android:fontFamily="sans-serif-medium"
+            android:textColor="#333"
             android:layout_marginTop="36dp"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent" />
+            app:layout_constraintEnd_toEndOf="parent"/>
 
-        <!-- Subtítulo -->
         <TextView
             android:id="@+id/subtitulo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="RULETA"
-            android:background="@drawable/bg_rounded_green"
             android:textColor="#FFFFFF"
             android:textStyle="bold"
             android:textSize="20sp"
-            android:paddingStart="16dp"
-            android:paddingEnd="16dp"
-            android:paddingTop="8dp"
-            android:paddingBottom="8dp"
+            android:paddingHorizontal="16dp"
+            android:paddingVertical="8dp"
+            android:background="@drawable/bg_rounded_green"
             android:layout_marginTop="12dp"
             app:layout_constraintTop_toBottomOf="@id/titulo"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent" />
+            app:layout_constraintEnd_toEndOf="parent"/>
 
-        <!-- Ruleta con flecha -->
-        <FrameLayout
-            android:id="@+id/frameRuleta"
+        <!-- Ruleta con flecha (puntero) dibujado internamente en la vista personalizada) -->
+        <com.example.myapplicationics.Gamificacion_LUIS.Ruleta_View_Luis
+            android:id="@+id/ruletaView"
             android:layout_width="300dp"
             android:layout_height="300dp"
             android:layout_marginTop="30dp"
             app:layout_constraintTop_toBottomOf="@id/subtitulo"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent">
+            app:layout_constraintEnd_toEndOf="parent"/>
 
-            <com.example.myapplicationics.Gamificacion_LUIS.Ruleta_View_Luis
-                android:id="@+id/ruletaView"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent" />
-
-            <ImageView
-                android:id="@+id/flecha"
-                android:layout_width="40dp"
-                android:layout_height="40dp"
-                android:layout_gravity="top|center_horizontal"
-                android:layout_marginTop="-10dp"
-                android:rotation="180"
-                android:src="@drawable/yo" />
-        </FrameLayout>
-
-        <!-- Instrucciones -->
         <TextView
             android:id="@+id/instrucciones"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:text="Gira la ruleta para responder preguntas y ganar puntos"
             android:textSize="16sp"
-            android:fontFamily="sans-serif"
-            android:textColor="#000000"
-            android:padding="16dp"
+            android:textColor="#000"
             android:background="@drawable/bg_rounded_yellow"
-            android:layout_marginTop="24dp"
-            app:layout_constraintTop_toBottomOf="@id/frameRuleta"
+            android:padding="16dp"
+            android:layout_marginTop="20dp"
+            app:layout_constraintTop_toBottomOf="@id/ruletaView"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent" />
+            app:layout_constraintEnd_toEndOf="parent"/>
 
-        <!-- Botón GIRAR -->
         <Button
             android:id="@+id/btnGirar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="GIRAR"
-            android:textAllCaps="false"
             android:textSize="18sp"
             android:textStyle="bold"
-            android:textColor="#FFFFFF"
             android:background="@drawable/bg_button_grey"
-            android:paddingStart="24dp"
-            android:paddingEnd="24dp"
-            android:paddingTop="12dp"
-            android:paddingBottom="12dp"
+            android:textColor="#FFFFFF"
             android:layout_marginTop="24dp"
+            android:paddingVertical="12dp"
+            android:paddingHorizontal="24dp"
             app:layout_constraintTop_toBottomOf="@id/instrucciones"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent" />
+            app:layout_constraintEnd_toEndOf="parent"/>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>
