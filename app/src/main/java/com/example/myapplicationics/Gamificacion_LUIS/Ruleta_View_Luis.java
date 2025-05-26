@@ -81,8 +81,8 @@ public class Ruleta_View_Luis extends View {
         paint.setTypeface(Typeface.DEFAULT_BOLD);
         canvas.drawText("GO", width / 2, height / 2 + 10, paint);
 
-        // Dibuja la flecha centrada arriba
-        drawArrow(canvas, width / 2, height / 2 - radius - 30);
+        // Dibuja la flecha centrada ABAJO (270°)
+        drawArrow(canvas, width / 2, height / 2 + radius + 30);
     }
 
     private void drawTextOnSector(Canvas canvas, String text, float angleDeg, float radius) {
@@ -97,8 +97,8 @@ public class Ruleta_View_Luis extends View {
         paint.setColor(Color.BLACK);
         Path path = new Path();
         path.moveTo(x, y);
-        path.lineTo(x - 25, y - 50);
-        path.lineTo(x + 25, y - 50);
+        path.lineTo(x - 25, y + 50);
+        path.lineTo(x + 25, y + 50);
         path.close();
         canvas.drawPath(path, paint);
     }
@@ -107,10 +107,15 @@ public class Ruleta_View_Luis extends View {
         Random random = new Random();
         int vueltas = random.nextInt(3) + 5;
         float sweepAngle = 360f / categorias.length;
-        int indexFinal = random.nextInt(categorias.length);
-        float anguloObjetivo = 360 - (indexFinal * sweepAngle + sweepAngle / 2);
-        float rotacionExtra = vueltas * 360 + anguloObjetivo;
 
+        // Selección aleatoria de categoría
+        int indexFinal = random.nextInt(categorias.length);
+
+        // Queremos que el centro del sector seleccionado quede en el ángulo 270°
+        float anguloCentroSector = indexFinal * sweepAngle + sweepAngle / 2;
+        float anguloObjetivo = 270 - anguloCentroSector;
+
+        float rotacionExtra = vueltas * 360 + anguloObjetivo;
         float inicio = currentAngle;
         float destino = currentAngle + rotacionExtra;
 
@@ -127,11 +132,14 @@ public class Ruleta_View_Luis extends View {
             @Override
             public void onAnimationEnd(Animator animation) {
                 currentAngle = destino % 360;
-                float fixedAngle = (360 - (currentAngle % 360) + sweepAngle / 2) % 360;
+
+                float fixedAngle = (270 - currentAngle + 360) % 360;
                 int index = (int) (fixedAngle / sweepAngle);
+
                 categoriaSeleccionadaIndex = index;
                 categoriaSeleccionada = categorias[index];
                 invalidate();
+
                 if (onFinish != null) onFinish.run();
             }
         });
