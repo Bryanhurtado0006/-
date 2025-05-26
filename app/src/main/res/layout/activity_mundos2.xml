@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".dashboarBB.MundosBB.bienvenida.Mundos_activity">
+
+    <!-- 🟡 Layout de Bienvenida -->
+    <LinearLayout
+        android:id="@+id/layoutBienvenida"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:gravity="center_horizontal">
+
+        <ImageView
+            android:id="@+id/imgBienvenida"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:src="@drawable/mundosgeneral"
+            android:contentDescription="@string/app_name"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:layout_marginBottom="24dp" />
+
+        <TextView
+            android:id="@+id/txtBienvenida"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="¡Bienvenido al Mundo del Conocimiento!"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:id="@+id/txtDescripcion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/mundoss"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:lineSpacingExtra="8dp"
+            android:layout_marginBottom="32dp"
+            android:paddingHorizontal="16dp" />
+
+        <Button
+            android:id="@+id/btnComenzar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="¡Comenzar!"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/button_text"
+            android:backgroundTint="@color/button_background"
+            android:paddingHorizontal="32dp"
+            android:paddingVertical="12dp"
+            android:elevation="4dp" />
+    </LinearLayout>
+
+    <!-- contenedor del framento-->
+    <FrameLayout
+        android:id="@+id/containerFragmentMundos"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" />
+</FrameLayout>
+

@@ -19,10 +19,18 @@
     <string name="name_titulo">Crack the code, Change the world.</string>
 
     //string test vocacional
+    <string name="final_test">Hemos recibido tus respuestas. Los resultados te ayudarán a identificar tu vocación profesional</string>
+    <string name="ayudar">¡Este test te puede\nayudar!</string>
+    <string name="no_sabes">"¿No sabes qué\ncarrera estudiar?"</string>
+    <string name="Recuerda">"¡Recuerda!\nNo hay respuestas\ncorrectas o incorrectas.\nLo importante\nes que seas honesto\ncontigo mismo."</string>
+    <string name="que_es_el_test">"Este test vocacional está\ndiseñado especialmente para\nestudiantes de grado once que\nestán próximos a tomar una de las\ndecisiones más importantes de su\nvida: elegir una carrera\nprofesional."</string>
     <string name="thank_you_title">¡Gracias por completar nuestro test!</string>
     <string name="thank_you_message">Tu confianza es muy importante para nosotros. Los resultados te ayudarán a descubrir tu camino vocacional. ¡Éxito en tu futuro profesional!</string>
     <string name="back_to_home">Volver al Inicio</string>
     <string name="app_signature">TuApp</string>
+
+    //mundos
+    <string name="mundoss">🧠 Explora mundos llenos de magia y aprendizaje:\n\n🔢 Campo de Batalla Matematico\n📚 Biblioteca Encantada\n🧪 Laboratorio Galactico\n🇬🇧 English Arena\n🌌 Republica de las Decisiones\n\n¡Elige tu mundo favorito y comienza a aprender jugando!</string>
 
 
 </resources>
