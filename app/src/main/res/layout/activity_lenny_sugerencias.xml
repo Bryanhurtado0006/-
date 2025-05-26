@@ -4,7 +4,7 @@
     android:id="@+id/scrollView"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#E3F2FD"
+    android:background="#F3F6F8"
     android:padding="20dp"
     tools:context=".lenny_configuracion1.Lenny_Sugerencias">
 
@@ -15,7 +15,7 @@
             android:layout_height="wrap_content">
 
             <TextView
-                android:text="Sugerenciass"
+                android:text="Sugerencias"
                 android:textSize="24sp"
                 android:textStyle="bold"
                 android:layout_marginTop="55dp"

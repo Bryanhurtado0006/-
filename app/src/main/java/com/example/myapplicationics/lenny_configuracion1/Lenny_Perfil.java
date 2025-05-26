@@ -20,7 +20,7 @@ public class Lenny_Perfil extends AppCompatActivity {
         binding = ActivityLennyPerfilBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 
-        binding.perfil.setOnClickListener(view ->{
+        binding.Perfill.setOnClickListener(view ->{
             Intent intent = new Intent(Lenny_Perfil.this, Lenny_Editarperfil.class);
             startActivity(intent);
         });
