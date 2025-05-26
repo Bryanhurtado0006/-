@@ -44,7 +44,19 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"/>
 
-        <!-- Ruleta con flecha (puntero) dibujado internamente en la vista personalizada) -->
+        <!-- FLECHA apuntando hacia abajo (a "Lectura Crítica") -->
+        <ImageView
+            android:id="@+id/flechaImagen"
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:src="@drawable/flecha"
+            android:layout_marginTop="0dp"
+            android:rotation="0"
+            app:layout_constraintBottom_toTopOf="@id/ruletaView"
+            app:layout_constraintStart_toStartOf="@id/ruletaView"
+            app:layout_constraintEnd_toEndOf="@id/ruletaView" />
+
+        <!-- Ruleta -->
         <com.example.myapplicationics.Gamificacion_LUIS.Ruleta_View_Luis
             android:id="@+id/ruletaView"
             android:layout_width="300dp"
